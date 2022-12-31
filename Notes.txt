@@ -1,0 +1,3 @@
+Components name should start with Capital and Project name should be lowercase
+
+rafce : react emet to create a component syntax, it create syntax with the component name by default
