@@ -3,7 +3,7 @@
   flex-direction: column;
 
   background-color: var(--color-primary-variant);
-  z-index: 1;
+  /* z-index: 1; */
   align-items: center;
   justify-content: flex-end;
   margin: 10px;
@@ -33,6 +33,7 @@
   margin-top: 20px;
   border-color: var(--color-bg);
   color: black;
+  /* z-index: 1000; */
 }
 
 .product__info {

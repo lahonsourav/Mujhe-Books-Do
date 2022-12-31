@@ -2,8 +2,10 @@ import React from "react";
 import "./Product.css";
 import { useStateValue } from "../stateprovider/StateProvider";
 
-const Product = ({ id, title, image, price, rating }) => {
-  const [state, dispatch] = useStateValue();
+function Product({ id, title, image, price, rating }) {
+  // const [state, dispatch] = useStateValue();
+  const [{ basket }, dispatch] = useStateValue();
+
   const addToBasket = () => {
     dispatch({
       type: "ADD_TO_BASKET",
@@ -28,16 +30,16 @@ const Product = ({ id, title, image, price, rating }) => {
           {Array(rating)
             .fill()
             .map((_, i) => (
-              <p>*</p>
+              <p>⭐</p>
             ))}
         </div>
       </div>
       <img src={image} alt="" />
 
       {/* this button isn't working */}
-      <button onClick={addToBasket}>Add to Basket</button>
+      <button onClick={addToBasket}>Add to Bookshelf</button>
     </div>
   );
-};
+}
 
 export default Product;
