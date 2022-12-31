@@ -13,27 +13,27 @@ const Home = () => {
           <small>The stars denote the condition of the book</small>
         </div>
         <div className="home__row">
-          <Product title="BS Grewal" price={399} image={COMING} rating={4} />
-          <Product title="DSA with C" price={299} image={COMING} rating={3} />
+          <Product title="Demo Book 1" price={399} image={COMING} rating={4} />
+          <Product title="Demo Book 1" price={299} image={COMING} rating={3} />
         </div>
         <div className="home__row">
           <Product
             id="1"
-            title="Digital Electronics"
+            title="Demo Book 3"
             price={449}
             image={COMING}
             rating={5}
           />
           <Product
             id="2"
-            title="Analog Electronics"
+            title="Demo Book 3"
             price={299}
             image={COMING}
             rating={2}
           />
           <Product
             id="3"
-            title="Microprocessor basics"
+            title="Demo Book 4"
             price={249}
             image={COMING}
             rating={4}
@@ -42,15 +42,13 @@ const Home = () => {
         <div className="home__row">
           <Product
             id="4"
-            title="Master Python"
+            title="Demo Book 5"
             price={599}
             image={COMING}
             rating={3}
           />
         </div>
       </div>
-
-     
     </div>
   );
 };

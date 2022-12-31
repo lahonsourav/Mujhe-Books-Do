@@ -8,28 +8,39 @@ function Subtotal() {
   const [{ basket }, dispatch] = useStateValue();
 
   return (
-    <div className="subtotal">
-      <CurrencyFormat
-        renderText={(value) => (
-          <>
-            <p>
-              Subtotal ({basket.length} items): <strong> {value}</strong>
-            </p>
-            <small className="subtotal__gift">
-              <input type="checkbox" />
-              Donate 10% of my payment
-            </small>
-          </>
-        )}
-        decimalState={2}
-        value={getBasketTotal(basket)}
-        displayType={"text"}
-        thousandSeperator={true}
-        prefix={"₹"}
-      />
+    <>
+      <div className="subtotal">
+        <CurrencyFormat
+          renderText={(value) => (
+            <>
+              <p>
+                Subtotal ({basket.length} items): <strong> {value}</strong>
+              </p>
+              <small className="subtotal__gift">
+                <input type="checkbox" />
+                Donate 10% of my payment
+              </small>
+            </>
+          )}
+          decimalState={2}
+          value={getBasketTotal(basket)}
+          displayType={"text"}
+          thousandSeperator={true}
+          prefix={"₹"}
+        />
 
-      <button>Proceed to Checkout</button>
-    </div>
+        <button>Proceed to Checkout</button>
+      </div>
+
+      <div className="subtotal__two">
+        <p>
+          Thank you for purchasing books from our site, 10% of your purchase
+          will be donated to charity as a part of 'Mujhe Books Do' helping hands
+          initiative. This initiative aims to provide basic primary education
+          facility to poor children.
+        </p>
+      </div>
+    </>
   );
 }
 

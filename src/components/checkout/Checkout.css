@@ -1,9 +1,16 @@
 .checkout {
+  /* overflow-x: hidden; */
   display: flex;
   padding: 20px;
   background-color: var(--color-white);
   height: max-content;
 }
+
+.checkout__left {
+  max-width: 70%;
+}
+
+
 
 .checkout__title {
   margin-right: 10px;
