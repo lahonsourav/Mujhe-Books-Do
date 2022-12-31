@@ -4,9 +4,14 @@ import { BsSearch } from "react-icons/bs";
 import { SlBasket } from "react-icons/sl";
 import LOGO from "../../images/booklogo.png";
 import { Link } from "react-router-dom";
-const header = () => {
+import { useStateValue } from "../stateprovider/StateProvider";
+const Header = () => {
+
+
+  const [{ basket }, dispatch] = useStateValue();
   return (
     <div className="header">
+
       <Link to="/">
         <img className="header__logo" src={LOGO} alt="logo" />
       </Link>
@@ -37,8 +42,7 @@ const header = () => {
           <div className="header__optionbasket">
             <SlBasket />
             <span className="header__optionLineTwo header__basketCount">
-              {" "}
-              0
+              {basket?.length}
             </span>
           </div>
         </Link>
@@ -47,4 +51,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;

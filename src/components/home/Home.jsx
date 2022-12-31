@@ -18,18 +18,21 @@ const Home = () => {
         </div>
         <div className="home__row">
           <Product
+            id="1"
             title="Digital Electronics"
             price={449}
             image={COMING}
             rating={5}
           />
           <Product
+            id="2"
             title="Analog Electronics"
             price={299}
             image={COMING}
             rating={2}
           />
           <Product
+            id="3"
             title="Microprocessor basics"
             price={249}
             image={COMING}
@@ -38,6 +41,7 @@ const Home = () => {
         </div>
         <div className="home__row">
           <Product
+            id="4"
             title="Master Python"
             price={599}
             image={COMING}
