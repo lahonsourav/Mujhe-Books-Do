@@ -1,5 +1,3 @@
-
-
 .checkoutProduct {
   display: flex;
   margin-top: 20px;
@@ -20,13 +18,15 @@
 }
 
 .checkoutProduct__info > button {
-  background: orange;
+  background: var(--color-primary);
+  border-radius: 3px;
+  width: 100%;
+  height: 25px;
   border: 1px solid;
   margin-top: 10px;
-  border-color: antiquewhite;
-  color: black;
+  border-color: rgb(66, 180, 246);
+  color: var(--color-bg);
 }
-
 .checkoutProduct__rating {
   display: flex;
 }

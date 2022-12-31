@@ -13,7 +13,11 @@ function Checkout() {
       <div className="checkout__left">
         <img className="checkout__ad" src={CHARITY} alt="10% charity image" />
         <div>
-          <h2 className="checkout__title">Your Bookshelf</h2>
+          <div>
+          <h2 className="checkout__title">
+            You are just one step away from owning this bookshelf:
+          </h2>
+          </div>
 
           {basket.map((item) => (
             <CheckoutProduct
@@ -24,7 +28,6 @@ function Checkout() {
               rating={item.rating}
             />
           ))}
-
         </div>
       </div>
 

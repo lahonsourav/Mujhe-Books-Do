@@ -6,12 +6,9 @@ import LOGO from "../../images/booklogo.png";
 import { Link } from "react-router-dom";
 import { useStateValue } from "../stateprovider/StateProvider";
 const Header = () => {
-
-
   const [{ basket }, dispatch] = useStateValue();
   return (
     <div className="header">
-
       <Link to="/">
         <img className="header__logo" src={LOGO} alt="logo" />
       </Link>
@@ -34,10 +31,12 @@ const Header = () => {
           <span className="header__optionLineOne">Know about</span>
           <span className="header__optionLineTwo">Mujhe Book Do</span>
         </div>
-        <div className="header__option">
-          <span className="header__optionLineOne">Log in</span>
-          <span className="header__optionLineTwo">My Profile</span>
-        </div>
+        <Link to="/login">
+          <div className="header__option">
+            <span className="header__optionLineOne">Sign in</span>
+            <span className="header__optionLineTwo">My Profile</span>
+          </div>
+        </Link>
         <Link to="/checkout">
           <div className="header__optionbasket">
             <SlBasket />
