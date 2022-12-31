@@ -13,8 +13,14 @@ function Login() {
       <div className="login__container">
         <h1>Sign-in</h1>
         <form action="">
-            <h5></h5>
+          <h5>E-mail</h5>
+          <input type="text" />
+          <h5>Password</h5>
+          <input type="password" />
+          <button className="login__signInButton">Sign In</button>
         </form>
+        <p>By signing in you agree to our privacy policy</p>
+        <button className="login__registerButton" >Create new account</button>
       </div>
     </div>
   );
