@@ -1,3 +1,14 @@
 Components name should start with Capital and Project name should be lowercase
 
 rafce : react emet to create a component syntax, it create syntax with the component name by default
+
+
+5:16:37
+useHistory() is replaced with useNavigate()
+
+replace 
+1. const history = useHistory() with 
+const navigate = useNavigate()
+
+2. history.push('/payment') with 
+navigate("/payment", { replace: true })

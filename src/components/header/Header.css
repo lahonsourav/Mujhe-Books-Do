@@ -52,6 +52,14 @@
   color: white;
 }
 
+.header__option__signed {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
 .header__optionLineOne {
   font-size: 10px;
   color: var(--color-bg);
@@ -60,6 +68,18 @@
 .header__optionLineTwo {
   font-size: 13px;
   font-weight: 800;
+  color: var(--color-bg);
+}
+
+.avatar_image {
+  border-radius: 15px;
+  max-width: 30px;
+}
+
+.user__name {
+  margin-top: 3px;
+  font-size: medium;
+  margin-right: 5px;
   color: var(--color-bg);
 }
 

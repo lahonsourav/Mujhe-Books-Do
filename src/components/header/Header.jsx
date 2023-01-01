@@ -5,7 +5,12 @@ import { SlBasket } from "react-icons/sl";
 import LOGO from "../../images/booklogo.png";
 import { Link } from "react-router-dom";
 import { useStateValue } from "../stateprovider/StateProvider";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { auth } from "../../components/utils/firebase";
+
 const Header = () => {
+  const [user, loading] = useAuthState(auth);
+
   const [{ basket }, dispatch] = useStateValue();
   return (
     <div className="header">
@@ -31,12 +36,29 @@ const Header = () => {
           <span className="header__optionLineOne">Know about</span>
           <span className="header__optionLineTwo">Mujhe Book Do</span>
         </div>
-        <Link to="/login">
-          <div className="header__option">
-            <span className="header__optionLineOne">Sign in</span>
-            <span className="header__optionLineTwo">My Profile</span>
-          </div>
-        </Link>
+        {!user && (
+          <Link to="/login">
+            <div className="header__option">
+              <span className="header__optionLineOne">Sign in</span>
+              <span className="header__optionLineTwo">My Profile</span>
+            </div>
+          </Link>
+        )}
+
+        {user && (
+          <Link to="/dashboard">
+            <div className="header__option__signed">
+              <h4 className="user__name">{user.displayName}</h4>
+              <img
+                referrerPolicy="no-referrer"
+                className="avatar_image"
+                src={user.photoURL}
+                alt="user image"
+              />
+            </div>
+          </Link>
+        )}
+
         <Link to="/checkout">
           <div className="header__optionbasket">
             <SlBasket />

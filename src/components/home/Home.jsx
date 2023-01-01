@@ -14,7 +14,7 @@ const Home = () => {
         </div>
         <div className="home__row">
           <Product title="Demo Book 1" price={399} image={COMING} rating={4} />
-          <Product title="Demo Book 1" price={299} image={COMING} rating={3} />
+          <Product title="Demo Book 2" price={299} image={COMING} rating={3} />
         </div>
         <div className="home__row">
           <Product

@@ -4,6 +4,8 @@ import Home from "./components/home/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Checkout from "./components/checkout/Checkout";
 import Login from "./components/login/Login";
+import Dashboard from "./components/dashboard/Dashboard";
+
 function App() {
   return (
     //BEM
@@ -21,7 +23,23 @@ function App() {
             }
           ></Route>
 
-          <Route path="/login" element={<Login />}></Route>
+          <Route
+            path="/login"
+            element={
+              <>
+                <Login />
+              </>
+            }
+          ></Route>
+
+          <Route
+            path="/dashboard"
+            element={
+              <>
+                <Dashboard />
+              </>
+            }
+          ></Route>
 
           <Route
             path="/checkout"
