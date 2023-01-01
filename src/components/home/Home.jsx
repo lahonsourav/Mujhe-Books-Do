@@ -26,14 +26,14 @@ const Home = () => {
           />
           <Product
             id="2"
-            title="Demo Book 3"
+            title="Demo Book 4"
             price={299}
             image={COMING}
             rating={2}
           />
           <Product
             id="3"
-            title="Demo Book 4"
+            title="Demo Book 5"
             price={249}
             image={COMING}
             rating={4}
@@ -42,7 +42,7 @@ const Home = () => {
         <div className="home__row">
           <Product
             id="4"
-            title="Demo Book 5"
+            title="Demo Book 6"
             price={599}
             image={COMING}
             rating={3}

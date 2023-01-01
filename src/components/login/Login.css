@@ -25,6 +25,8 @@
   padding: 20px;
 }
 
+
+
 .login__container > h1 {
   font-weight: 400;
   margin-bottom: 20px;
@@ -54,6 +56,7 @@
   border: 1px solid;
   margin-top: 10px;
   border-color: var(--color-bg);
+  margin-bottom: 20px;
 }
 
 .login__registerButton {
@@ -64,4 +67,20 @@
   border: 1px solid;
   margin-top: 10px;
   border-color: var(--color-bg);
+  margin-bottom: 40px;
+}
+
+.google__icon {
+  margin-bottom: -10px;
+}
+
+.login__registerButton-google {
+  background: var(--color-primary);
+  border-radius: 4px;
+  width: 75%;
+  min-height: 50px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: var(--color-bg);
+  margin-bottom: 20px;
 }

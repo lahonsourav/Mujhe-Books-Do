@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
 import LOGU from "../../images/booklogo.png";
+import { FcGoogle } from "react-icons/fc";
 
 import {
   createUserWithEmailAndPassword,
@@ -45,10 +46,13 @@ const Login = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then((auth) => {
         // Signed in
-        console.log(auth); // ...
+        console.log(auth);
+        alert("You got your ID card");
+        // ...
       })
       .catch((error) => {
         console.log(error.message);
+        alert("ID is mismatching, wrong mail or password");
         // ..
       });
   };
@@ -58,10 +62,14 @@ const Login = () => {
     createUserWithEmailAndPassword(auth, email, password)
       .then((auth) => {
         // Signed in
-        console.log(auth); // ...
+        console.log(auth);
+        alert("Your ID card is created, You are now logged in"); // ...
       })
       .catch((error) => {
         console.log(error.message);
+        alert(
+          "type your email and password on the boxes above, then click sign up"
+        );
         // ..
       });
   };
@@ -75,6 +83,14 @@ const Login = () => {
 
       <div className="login__container">
         <h1>Sign-in</h1>
+
+        <button onClick={GoogleLogin} className="login__registerButton-google">
+          Sign in with Google
+          <div className="google__icon">
+            <FcGoogle />
+          </div>
+        </button>
+        <small>or</small>
         <form>
           <h5>E-mail</h5>
           <input
@@ -96,15 +112,14 @@ const Login = () => {
             Sign In
           </button>
         </form>
-        <p>By signing in you agree to our privacy policy</p>
-        <button onClick={GoogleLogin} className="login__registerButton">
-          Sign in with Google
-        </button>
 
+        <small>Don't have an account ! click sign up</small>
         <button onClick={register} className="login__registerButton">
           Sign Up
         </button>
       </div>
+
+      <small>By signing in you agree to our privacy policy</small>
     </div>
   );
 };

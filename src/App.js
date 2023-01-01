@@ -13,7 +13,6 @@ import { onAuthStateChanged } from "firebase/auth";
 function App() {
   const [{}, dispatch] = useStateValue();
 
-  
   useEffect(() => {
     //run once when the app component loads
 
@@ -66,6 +65,7 @@ function App() {
             path="/dashboard"
             element={
               <>
+                <Header />
                 <Dashboard />
               </>
             }
