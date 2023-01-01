@@ -1,6 +1,6 @@
 import userEvent from "@testing-library/user-event";
 import React from "react";
-import { auth } from "../../components/utils/firebase";
+import { auth } from "../../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import "./Dashboard.css";
 
@@ -13,11 +13,10 @@ const Dashboard = () => {
 
   //need to insert if not user route to log in page
 
-    if (loading) return <h1>You are entering your Library </h1>;
-    if (!user) {
-      navigate("/");
-    }
-  
+  if (loading) return <h1>You are entering your Library </h1>;
+  if (!user) {
+    navigate("/");
+  }
 
   return (
     <div className="dashboard">

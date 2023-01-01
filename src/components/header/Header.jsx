@@ -6,7 +6,7 @@ import LOGO from "../../images/booklogo.png";
 import { Link } from "react-router-dom";
 import { useStateValue } from "../stateprovider/StateProvider";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { auth } from "../../components/utils/firebase";
+import { auth } from "../../firebase";
 
 const Header = () => {
   const [user, loading] = useAuthState(auth);

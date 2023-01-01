@@ -74,6 +74,7 @@
 .avatar_image {
   border-radius: 15px;
   max-width: 30px;
+  max-height: 30px;
 }
 
 .user__name {
