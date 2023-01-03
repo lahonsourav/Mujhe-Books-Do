@@ -68,6 +68,15 @@
   cursor: pointer;
 }
 
+.header__option__login {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  transition: var(--transition);
+}
+
 .header__option__signed {
   display: flex;
   flex-direction: row;
@@ -109,4 +118,48 @@
 .header__basketCount {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+@media (max-width: 560px) {
+  .header__option {
+    display: none;
+  }
+
+  .header__logo {
+    width: 60px;
+    object-fit: contain;
+    margin-top: 6px;
+    transition: var(--transition);
+  }
+
+  .header__searchIcon {
+    margin-left: 7px;
+    margin-right: 5px;
+    padding: 0px;
+    height: 24px !important;
+  }
+
+  .header__option__login {
+    margin-left: 6px;
+    margin-right: 3px;
+  }
+
+  .header__optionbasket {
+    margin-left: 5px;
+    margin-right: 1px;
+  }
+
+  .header__basketCount {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .header__optionLineOne {
+    font-size: 7px;
+  }
+
+  .header__optionLineTwo {
+    font-size: 12px;
+    font-weight: 600;
+  }
 }

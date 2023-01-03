@@ -46,6 +46,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -53,4 +55,14 @@ code {
 
 button:hover {
   cursor: pointer;
+}
+
+
+
+@media (max-width: 560px) {
+ 
+  body,
+  html {
+    overflow-x: hidden;
+  }
 }

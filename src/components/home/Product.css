@@ -62,3 +62,41 @@
 .product__rating {
   display: flex;
 }
+
+@media (max-width: 560px) {
+  .product {
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    max-height: 300px;
+    min-width: 100px;
+  }
+
+  .product__info {
+    height: 56px;
+    margin-top: -6px;
+  }
+
+  .product__info > p {
+    font-size: 15px;
+  }
+
+  .product__rating {
+    transform: scale(0.5);
+    margin-top: -5px;
+  }
+
+  .product > button {
+    transform: scale(0.6);
+    margin-top: 5px;
+    margin-bottom: -6px;
+  }
+
+  .product > img {
+    max-height: 100px;
+    max-width: 200px;
+    width: 100%;
+    object-fit: contain;
+    /* margin-bottom: 15px; */
+  }
+}

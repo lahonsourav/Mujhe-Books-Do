@@ -27,22 +27,22 @@ const Footer = () => {
         </div>
         <div class="middle box">
           <div class="topic">Jump to</div>
-          <div>
+          <div className="links__to">
             <Link to="/sell">Sell your books</Link>
           </div>
-          <div>
+          <div className="links__to">
             <Link to="/about">Know more about Us</Link>{" "}
           </div>
-          <div>
+          <div className="links__to">
             <Link to="/login">Login/logout</Link>{" "}
           </div>
-          <div>
+          <div className="links__to">
             <Link to="/checkout">Go to your Cart</Link>{" "}
           </div>
-          <div>
+          <div className="links__to">
             <Link to="#">Privacy Policy</Link>{" "}
           </div>
-          <div>
+          <div className="links__to">
             <Link to="#">Terms and Condition</Link>{" "}
           </div>
         </div>

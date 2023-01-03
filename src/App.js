@@ -11,6 +11,8 @@ import { useEffect } from "react";
 import { auth } from "./firebase";
 import { useStateValue } from "./components/stateprovider/StateProvider";
 import { onAuthStateChanged } from "firebase/auth";
+import About from "./components/about/About";
+import Payment from "./components/payment/Payment";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -65,6 +67,15 @@ function App() {
           ></Route>
 
           <Route
+            path="/about"
+            element={
+              <>
+                <About />
+              </>
+            }
+          ></Route>
+
+          <Route
             path="/sell"
             element={
               <>
@@ -90,6 +101,15 @@ function App() {
               <>
                 <Header />
                 <Checkout />
+              </>
+            }
+          ></Route>
+
+          <Route
+            path="/payment"
+            element={
+              <>
+                <Payment />
               </>
             }
           ></Route>

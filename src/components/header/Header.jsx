@@ -42,7 +42,7 @@ const Header = () => {
         </Link>
         {!user && (
           <Link to="/login">
-            <div className="header__option">
+            <div  className="header__option__login" >
               <span className="header__optionLineOne">My profile</span>
               <span className="header__optionLineTwo">Sign In</span>
             </div>

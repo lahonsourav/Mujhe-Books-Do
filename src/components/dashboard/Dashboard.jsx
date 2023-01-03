@@ -23,7 +23,7 @@ const Dashboard = () => {
         <img className="user__image" src={user.photoURL} alt="" />
       </div>
       <h1>{user.displayName} </h1>
-      <small>Hello {user.displayName}, Thanks for being a user of 'Mujhe Books Do'</small>
+      <small>Hello {user.displayName}, Welcome to 'Mujhe Books Do'</small>
       <div className="logOutButton">
         <button className="logout__button" onClick={() => auth.signOut()}>
           Log out

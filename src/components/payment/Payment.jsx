@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Payment = () => {
   return (
-    <div>Payment</div>
-  )
-}
+    <div>
+      <small>
+        This page is not available as the website is still under construction
+      </small>
+    </div>
+  );
+};
 
-export default Payment
+export default Payment;

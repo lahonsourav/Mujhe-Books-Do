@@ -16,13 +16,13 @@
   align-items: center;
 }
 
-
 .user__image {
-    max-width: 60px;
-    max-height: 60px;
-    border-radius: 30px;
+  max-width: 60px;
+  max-height: 60px;
+  border-radius: 30px;
 }
 
 .logOutButton {
-    margin-top: 200px;
+  margin-top: 200px;
 }
+

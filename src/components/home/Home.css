@@ -12,6 +12,7 @@
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  overflow-x: hidden;
 
   /* max-width: 1500px; */
 }
@@ -27,11 +28,17 @@
   position: sticky;
   top: 0;
 }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
 
 .home__row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
   margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 25px;
 }
 
 .home__image {
@@ -39,4 +46,21 @@
   margin-bottom: 5px;
   border-radius: 0 0 10px 10px;
   mask-image: linear-gradient(to bottom, var(--color-primary), white);
+}
+
+.home__aboutStar > small {
+  font-size: 12px;
+}
+
+@media (max-width: 560px) {
+  .home__row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+    margin-left: 2px;
+    margin-right: 12px;
+  }
+
+  .home__aboutStar {
+    height: 12px;
+  }
 }

@@ -82,7 +82,7 @@ const Contact = () => {
 
           <textarea
             name="message"
-            rows="16"
+            rows="5"
             placeholder="Tell us briefly about the book"
             required
           ></textarea>
