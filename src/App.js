@@ -4,7 +4,9 @@ import Home from "./components/home/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Checkout from "./components/checkout/Checkout";
 import Login from "./components/login/Login";
+import Sell from "./components/sell/Sell";
 import Dashboard from "./components/dashboard/Dashboard";
+import Footer from "./components/footer/Footer";
 import { useEffect } from "react";
 import { auth } from "./firebase";
 import { useStateValue } from "./components/stateprovider/StateProvider";
@@ -48,6 +50,7 @@ function App() {
                 {" "}
                 <Header />
                 <Home />
+                <Footer />
               </>
             }
           ></Route>
@@ -57,6 +60,16 @@ function App() {
             element={
               <>
                 <Login />
+              </>
+            }
+          ></Route>
+
+          <Route
+            path="/sell"
+            element={
+              <>
+                <Header />
+                <Sell />
               </>
             }
           ></Route>

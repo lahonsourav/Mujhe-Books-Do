@@ -1,0 +1,68 @@
+.sell__container {
+  background: var(--color-primary-variant);
+  max-width: 500px;
+  height: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-items: center; */
+  /* align-items: center; */
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.about__line {
+  margin-top: 30px;
+  justify-items: left;
+  align-items: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  color: var(--color-bg-variant);
+}
+
+.btn-primary {
+  justify-items: right;
+  align-items: right;
+  margin-left: 80%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: var(--color-primary);
+}
+
+.sell__container > form {
+  margin-left: 50px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.sell__container > form > input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--color-bg);
+  resize: none;
+  color: var(--color-bg-variant);
+}
+
+/* @media screen and (max-width: 1024px) {
+    .container.contact__container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container.contact__container {
+      width: var(--container-width-sm);
+    }
+  } */

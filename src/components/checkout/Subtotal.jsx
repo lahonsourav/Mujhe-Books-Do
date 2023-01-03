@@ -3,8 +3,10 @@ import "./Subtotal.css";
 import CurrencyFormat from "react-currency-format";
 import { useStateValue } from "../stateprovider/StateProvider";
 import { getBasketTotal } from "../stateprovider/reducer";
+import { useNavigate } from "react-router-dom";
 
 function Subtotal() {
+  const navigate = useNavigate();
   const [{ basket }, dispatch] = useStateValue();
 
   return (
@@ -29,15 +31,12 @@ function Subtotal() {
           prefix={"₹"}
         />
 
-        <button>Proceed to Checkout</button>
+        <button onClick={e => navigate("/payment", { replace: true })}>Proceed to Checkout</button>
       </div>
 
       <div className="subtotal__two">
         <p>
-          Thank you for purchasing books from our site, 10% of your purchase
-          will be donated to charity as a part of 'Mujhe Books Do' helping hands
-          initiative. This initiative aims to provide basic primary education
-          facility to poor children.
+          Thank you for purchasing books from our site.
         </p>
       </div>
     </>

@@ -11,35 +11,37 @@ function Checkout() {
 
   return (
     <div className="checkout">
-      <div className="checkout__left">
-        <img className="checkout__ad" src={CHARITY} alt="10% charity image" />
-        <div>
+      <div className="checkout__container">
+        <div className="checkout__left">
+          <img className="checkout__ad" src={CHARITY} alt="10% charity image" />
           <div>
-            <h2 className="checkout__title">
-              You are just one step away from owning this bookshelf:
-            </h2>
-          </div>
-
-          {/* check how to use the flipMove */}
-          <FlipMove>
             <div>
-              {basket.map((item) => (
-                <CheckoutProduct
-                  id={item.id}
-                  title={item.title}
-                  image={item.image}
-                  price={item.price}
-                  rating={item.rating}
-                />
-              ))}
+              <h2 className="checkout__title">
+                You are just one step away from owning this bookshelf:
+              </h2>
             </div>
-          </FlipMove>
+          </div>
+        </div>
+
+        <div className="checkout__right">
+          <Subtotal />
         </div>
       </div>
 
-      <div className="checkout__right">
-        <Subtotal />
-      </div>
+      {/* check how to use the flipMove */}
+      <FlipMove>
+        <div className="checkout__items-list">
+          {basket.map((item) => (
+            <CheckoutProduct
+              id={item.id}
+              title={item.title}
+              image={item.image}
+              price={item.price}
+              rating={item.rating}
+            />
+          ))}
+        </div>
+      </FlipMove>
     </div>
   );
 }

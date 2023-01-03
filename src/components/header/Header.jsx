@@ -28,19 +28,23 @@ const Header = () => {
       </div>
 
       <div className="header__nav">
-        <div className="header__option">
-          <span className="header__optionLineOne">I want to</span>
-          <span className="header__optionLineTwo">Sell Book</span>
-        </div>
-        <div className="header__option">
-          <span className="header__optionLineOne">Know about</span>
-          <span className="header__optionLineTwo">Mujhe Book Do</span>
-        </div>
+        <Link to="/sell">
+          <div className="header__option">
+            <span className="header__optionLineOne">I want to</span>
+            <span className="header__optionLineTwo">Sell Book</span>
+          </div>
+        </Link>
+        <Link to="/about">
+          <div className="header__option">
+            <span className="header__optionLineOne">About Version</span>
+            <span className="header__optionLineTwo">Closed Beta</span>
+          </div>
+        </Link>
         {!user && (
           <Link to="/login">
             <div className="header__option">
-              <span className="header__optionLineOne">Sign in</span>
-              <span className="header__optionLineTwo">My Profile</span>
+              <span className="header__optionLineOne">My profile</span>
+              <span className="header__optionLineTwo">Sign In</span>
             </div>
           </Link>
         )}
@@ -48,7 +52,6 @@ const Header = () => {
         {user && (
           <Link to="/dashboard">
             <div className="header__option__signed">
-              <h4 className="user__name">{user.displayName}</h4>
               <img
                 referrerPolicy="no-referrer"
                 className="avatar_image"

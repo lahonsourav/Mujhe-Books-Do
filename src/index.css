@@ -1,11 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }
 
 :root {
   --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
-  --color-primary: #9adfed;
+  --color-primary: #c2f0f9;
   --color-primary-variant: rgb(217, 239, 246);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
@@ -46,5 +52,5 @@ code {
 }
 
 button:hover {
-cursor: pointer;
+  cursor: pointer;
 }

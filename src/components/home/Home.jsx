@@ -47,6 +47,20 @@ const Home = () => {
             image={COMING}
             rating={3}
           />
+          <Product
+            id="4"
+            title="Demo Book 7"
+            price={649}
+            image={COMING}
+            rating={3}
+          />
+          <Product
+            id="4"
+            title="Demo Book 8"
+            price={699}
+            image={COMING}
+            rating={3}
+          />
         </div>
       </div>
     </div>
