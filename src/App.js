@@ -13,6 +13,7 @@ import { useStateValue } from "./components/stateprovider/StateProvider";
 import { onAuthStateChanged } from "firebase/auth";
 import About from "./components/about/About";
 import Payment from "./components/payment/Payment";
+import NavMobile from "./components/nav/NavMobile";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -44,6 +45,8 @@ function App() {
     //BEM
     <Router>
       <div className="App">
+        <NavMobile />
+
         <Routes>
           <Route
             path="/"

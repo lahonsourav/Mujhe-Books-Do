@@ -1,0 +1,90 @@
+.nav__mobile {
+  display: none;
+}
+
+.nav__mobile-header__nav {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+}
+
+.nav__mobile-header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  transition: var(--transition);
+}
+
+.nav__mobile-header__option__connect {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  transition: var(--transition);
+}
+
+.nav__mobile-header__optionLineOne {
+  font-size: 10px;
+  color: var(--color-bg);
+}
+
+.nav__mobile-header__optionLineTwo {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-bg);
+}
+
+@media (max-width: 560px) {
+  .nav__mobile {
+    height: 45px;
+    margin-bottom: -10px;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-primary-variant);
+    position: sticky;
+    bottom: 0;
+    z-index: 111;
+  }
+
+  .nav__mobile-header__logo {
+    width: 60px;
+    object-fit: contain;
+    margin-top: 6px;
+    transition: var(--transition);
+  }
+
+  .nav__mobile-header__searchIcon {
+    margin-left: 7px;
+    margin-right: 5px;
+    padding: 0px;
+    height: 24px !important;
+  }
+
+  .nav__mobile-header__option__login {
+    margin-left: 6px;
+    margin-right: 3px;
+  }
+
+  .nav__mobile-header__optionbasket {
+    margin-left: 5px;
+    margin-right: 1px;
+  }
+
+  .nav__mobile-header__basketCount {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .nav__mobile-header__optionLineOne {
+    font-size: 7px;
+  }
+
+  .nav__mobile-header__optionLineTwo {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}

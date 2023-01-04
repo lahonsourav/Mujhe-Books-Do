@@ -32,9 +32,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
-} */
+}
 
 body {
   background-color: var(--color-white);
@@ -46,8 +46,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -57,12 +55,10 @@ button:hover {
   cursor: pointer;
 }
 
-
-
-@media (max-width: 560px) {
+/* @media (max-width: 560px) {
  
   body,
   html {
     overflow-x: hidden;
   }
-}
+} */
