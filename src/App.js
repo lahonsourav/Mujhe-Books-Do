@@ -45,17 +45,16 @@ function App() {
     //BEM
     <Router>
       <div className="App">
-        <NavMobile />
-
         <Routes>
           <Route
             path="/"
             element={
               <>
                 {" "}
+                <NavMobile />
                 <Header />
                 <Home />
-                <Footer />
+               
               </>
             }
           ></Route>
@@ -92,6 +91,7 @@ function App() {
             path="/dashboard"
             element={
               <>
+                <NavMobile />
                 <Header />
                 <Dashboard />
               </>

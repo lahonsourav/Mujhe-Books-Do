@@ -31,3 +31,29 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
+@media (max-width: 560px) {
+  .checkout {
+    overflow-x: hidden;
+  }
+
+  .checkout__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .checkout__left {
+    max-width: 100%;
+  }
+
+  .checkout__title {
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .checkout__items-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
