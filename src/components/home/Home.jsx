@@ -210,6 +210,8 @@ const Home = () => {
           <Link to="/sell" className="home__aboutStar__sell">
             <small>Sell your Books</small>
           </Link>
+
+          
         </div>
       </div>
     </div>

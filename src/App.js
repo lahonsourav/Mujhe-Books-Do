@@ -45,6 +45,7 @@ function App() {
     //BEM
     <Router>
       <div className="App">
+
         <Routes>
           <Route
             path="/"
@@ -54,7 +55,7 @@ function App() {
                 <NavMobile />
                 <Header />
                 <Home />
-               
+                <Footer />
               </>
             }
           ></Route>
@@ -64,6 +65,7 @@ function App() {
             element={
               <>
                 <Login />
+                <Footer />
               </>
             }
           ></Route>
@@ -73,6 +75,7 @@ function App() {
             element={
               <>
                 <About />
+                <Footer />
               </>
             }
           ></Route>
@@ -83,6 +86,7 @@ function App() {
               <>
                 <Header />
                 <Sell />
+                <Footer />
               </>
             }
           ></Route>
@@ -94,6 +98,7 @@ function App() {
                 <NavMobile />
                 <Header />
                 <Dashboard />
+                <Footer />
               </>
             }
           ></Route>
@@ -104,6 +109,7 @@ function App() {
               <>
                 <Header />
                 <Checkout />
+                <Footer />
               </>
             }
           ></Route>
@@ -113,6 +119,7 @@ function App() {
             element={
               <>
                 <Payment />
+                <Footer />
               </>
             }
           ></Route>

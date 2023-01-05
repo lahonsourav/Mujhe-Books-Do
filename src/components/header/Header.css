@@ -2,7 +2,16 @@
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: var(--color-primary-variant);
+  /* background-color: var(--color-primary-variant); */
+  background-color: var(--color-bg-variant);
+  background: linear-gradient(
+    45deg,
+    var(--color-white),
+    var(--color-bg-variant),
+    var(--color-primary),
+    var(--color-white)
+  );
+  backdrop-filter: blur(15);
   position: sticky;
   top: 0;
   z-index: 100;
