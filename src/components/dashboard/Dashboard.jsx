@@ -5,6 +5,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import "./Dashboard.css";
 import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import UserOption from "./UserOption";
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -24,11 +25,17 @@ const Dashboard = () => {
       </div>
       <h1>{user.displayName} </h1>
       <small>Hello {user.displayName}, Welcome to 'Mujhe Books Do'</small>
-      <div className="logOutButton">
-        <button className="logout__button" onClick={() => auth.signOut()}>
-          Log out
-        </button>
+      <div className="logOutButton"></div>
+
+      <div className="user__options">
+        
+          <UserOption/>
+       
       </div>
+
+      <button className="logout__button" onClick={() => auth.signOut()}>
+        Log out
+      </button>
     </div>
   );
 };

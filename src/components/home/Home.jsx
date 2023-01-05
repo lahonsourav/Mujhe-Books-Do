@@ -19,6 +19,11 @@ import CONPHY from "../../BookImages/conphy.jpg";
 import MTGONE from "../../BookImages/mtgone.webp";
 import ARONE from "../../BookImages/ARONE.webp";
 import ENGPHY from "../../BookImages/ENGPHY.webp";
+import CHEMONE from "../../BookImages/chemone.webp";
+import CHEMTWO from "../../BookImages/chemtwo.jpg";
+import CHEMTHREE from "../../BookImages/chemthree.jpg";
+
+
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -27,7 +32,7 @@ const Home = () => {
       <div className="home__container">
         <img className="home__image" src={BANNER} alt="banner__image" />
         <div className="home__aboutStar">
-          <small>The stars denote the condition of the book</small>
+          <small>A boy who never read any book built this website</small>
         </div>
 
         <div className="category">
@@ -145,10 +150,10 @@ const Home = () => {
               />
               <Product
                 id="1"
-                title="More Books"
-                author="Coming soon"
-                price={999}
-                image={COMING}
+                title="Handbook of Chemistry"
+                author="Arihant"
+                price={188}
+                image={CHEMONE}
                 rating={5}
               />
               <Product
@@ -160,20 +165,20 @@ const Home = () => {
               />
               <Product
                 id="1"
-                title="More Books"
-                author="Coming soon"
-                price={999}
-                image={COMING}
+                title="General Organic Chemistry"
+                author="Disha Publications"
+                price={140}
+                image={CHEMTWO}
                 rating={5}
               />
             </div>
             <div className="home__row">
               <Product
                 id="1"
-                title="More Books"
-                author="Coming soon"
-                price={999}
-                image={COMING}
+                title="Chemistry Problem Book"
+                author="Wiley Editorial"
+                price={690}
+                image={CHEMTHREE}
                 rating={5}
               />
 
