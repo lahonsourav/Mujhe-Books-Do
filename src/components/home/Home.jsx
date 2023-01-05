@@ -3,6 +3,23 @@ import "./Home.css";
 import BANNER from "../../images/bookbanner.png";
 import Product from "./Product.jsx";
 import COMING from "../../images/coming.gif";
+import JEC from "../../BookImages/jec.webp";
+import SECRET from "../../BookImages/secret.jpg";
+import IGNITED from "../../BookImages/ignited.jpg";
+import SEVEN from "../../BookImages/seven.jpg";
+import PRIDE from "../../BookImages/pride.jpg";
+import BOKUL from "../../BookImages/bokul.jpg";
+import OIG from "../../BookImages/oig.jpg";
+import AXIMOT from "../../BookImages/aximot.jpg";
+import WINGS from "../../BookImages/wings.jpg";
+import LORD from "../../BookImages/lord.jpg";
+import TIGER from "../../BookImages/tiger.jpg";
+import TRAIN from "../../BookImages/train.jpg";
+import CONPHY from "../../BookImages/conphy.jpg";
+import MTGONE from "../../BookImages/mtgone.webp";
+import ARONE from "../../BookImages/ARONE.webp";
+import ENGPHY from "../../BookImages/ENGPHY.webp";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -12,93 +29,182 @@ const Home = () => {
         <div className="home__aboutStar">
           <small>The stars denote the condition of the book</small>
         </div>
-        <div className="wrapper">
-          <div className="home__row">
-            <Product
-              title="Demo Book 1"
-              price={399}
-              image={COMING}
-              rating={4}
-            />
-            <Product
-              title="Demo Book 2"
-              price={299}
-              image={COMING}
-              rating={3}
-            />
-            <Product
-              title="Demo Book 1"
-              price={399}
-              image={COMING}
-              rating={4}
-            />
-            <Product
-              title="Demo Book 2"
-              price={299}
-              image={COMING}
-              rating={3}
-            />
+
+        <div className="category">
+          <div className="wrapper">
+            <small className="category__name">User's Favorite</small>
+            <div className="home__row">
+              <Product
+                title="Arnav Astha aru JEC"
+                price={220}
+                author="Indrani Sharma"
+                image={JEC}
+                rating={5}
+              />
+              <Product
+                title="The Secret"
+                author="Rhonda Byrne"
+                price={799}
+                image={SECRET}
+                rating={4}
+              />
+              <Product
+                title="Ignited minds"
+                author="APJ Abdul Kalam"
+                price={189}
+                image={IGNITED}
+                rating={5}
+              />
+              <Product
+                title="A brief history of 7 killings"
+                author="Marlon James"
+                price={499}
+                image={SEVEN}
+                rating={3}
+              />
+            </div>
+            <div className="home__row">
+              <Product
+                id="1"
+                title="Pride and Prejudice"
+                author="Jane Austen"
+                price={99}
+                image={PRIDE}
+                rating={5}
+              />
+              <Product
+                id="2"
+                title="বকুল ফুলৰ দৰে "
+                author="ড° মৃণাল কলিতা "
+                price={200}
+                image={BOKUL}
+                rating={2}
+              />
+              <Product
+                id="3"
+                title="Wings of fire"
+                author="APJ Abdul Kalam"
+                price={150}
+                image={WINGS}
+                rating={4}
+              />
+              <Product
+                id="3"
+                title="One Indian Girl"
+                author="Chetan Bhagat"
+                price={130}
+                image={OIG}
+                rating={4}
+              />
+            </div>
+            <div className="home__row">
+              <Product
+                id="4"
+                title="অসীমত যাৰ হেৰাল সীমা"
+                author="কাঞ্চন বৰুৱা"
+                price={300}
+                image={AXIMOT}
+                rating={3}
+              />
+              <Product
+                id="4"
+                title="Lord of the Rings"
+                author="J.R.R. Tolkien"
+                price={649}
+                image={LORD}
+                rating={3}
+              />
+              <Product
+                id="4"
+                title="The White Tiger"
+                author="Aravind Adiga"
+                price={399}
+                image={TIGER}
+                rating={3}
+              />
+              <Product
+                id="3"
+                title="Train to Pakistan"
+                author="Khushwant Singh"
+                price={120}
+                image={TRAIN}
+                rating={4}
+              />
+            </div>
           </div>
-          <div className="home__row">
-            <Product
-              id="1"
-              title="Demo Book 3"
-              price={449}
-              image={COMING}
-              rating={5}
-            />
-            <Product
-              id="2"
-              title="Demo Book 4"
-              price={299}
-              image={COMING}
-              rating={2}
-            />
-            <Product
-              id="3"
-              title="Demo Book 5"
-              price={249}
-              image={COMING}
-              rating={4}
-            />
-            <Product
-              id="3"
-              title="Demo Book 5"
-              price={249}
-              image={COMING}
-              rating={4}
-            />
+
+          <div className="wrapper">
+            <small className="category__name">Student's Library</small>
+            <div className="home__row">
+              <Product
+                title="Concept of Physics"
+                author="HC Verma"
+                price={399}
+                image={CONPHY}
+                rating={4}
+              />
+              <Product
+                id="1"
+                title="More Books"
+                author="Coming soon"
+                price={999}
+                image={COMING}
+                rating={5}
+              />
+              <Product
+                title="21 years JEE main PYQ"
+                author="MTG"
+                price={449}
+                image={MTGONE}
+                rating={3}
+              />
+              <Product
+                id="1"
+                title="More Books"
+                author="Coming soon"
+                price={999}
+                image={COMING}
+                rating={5}
+              />
+            </div>
+            <div className="home__row">
+              <Product
+                id="1"
+                title="More Books"
+                author="Coming soon"
+                price={999}
+                image={COMING}
+                rating={5}
+              />
+
+              <Product
+                title="Engineering Physics"
+                author="HK Malik"
+                price={799}
+                image={ENGPHY}
+                rating={3}
+              />
+              <Product
+                id="1"
+                title="More Books"
+                author="Coming soon"
+                price={999}
+                image={COMING}
+                rating={5}
+              />
+              <Product
+                title="Handbook of Physics"
+                author="Arihant"
+                price={210}
+                image={ARONE}
+                rating={4}
+              />
+            </div>
           </div>
-          <div className="home__row">
-            <Product
-              id="4"
-              title="Demo Book 6"
-              price={599}
-              image={COMING}
-              rating={3}
-            />
-            <Product
-              id="4"
-              title="Demo Book 7"
-              price={649}
-              image={COMING}
-              rating={3}
-            />
-            <Product
-              id="4"
-              title="Demo Book 8"
-              price={699}
-              image={COMING}
-              rating={3}
-            />
-            <Product
-              id="3"
-              title="Demo Book 5"
-              price={249}
-              image={COMING}
-              rating={4}
-            />
-          </div>
+
+          <Link to="/sell" className="home__aboutStar__sell">
+            <small>Sell your Books</small>
+          </Link>
         </div>
       </div>
     </div>

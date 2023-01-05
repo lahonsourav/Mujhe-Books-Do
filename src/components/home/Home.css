@@ -6,8 +6,6 @@
 }
 
 .home {
-  background: var(--color-primary-variant);
-  background: linear-gradient(var(--color-primary-variant), white);
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -23,14 +21,27 @@
   align-items: center;
   justify-content: flex-end;
   align-items: center;
-  border-radius: 5px;
   height: 20px;
-  position: sticky;
+  position: relative;
+  top: 0;
+}
+
+.home__aboutStar__sell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20px;
+  position: relative;
   top: 0;
 }
 .wrapper {
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
+  background: var(--color-primary-variant);
+  background: linear-gradient(var(--color-primary-variant), white);
 }
 
 .home__row {
@@ -52,6 +63,20 @@
   font-size: 12px;
 }
 
+
+.home__aboutStar__sell > small {
+  font-size: 14px;
+}
+
+.category__name {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+
 @media (max-width: 560px) {
   .home__row {
     grid-template-columns: repeat(2, 1fr);
@@ -62,5 +87,6 @@
 
   .home__aboutStar {
     height: 12px;
+    margin-bottom: -4px;
   }
 }
