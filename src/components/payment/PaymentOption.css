@@ -1,0 +1,41 @@
+.payment__option__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* .payment__methodIcon {
+  display: none;
+} */
+
+.payment__option {
+  height: 50px;
+  width: 250px;
+  border-color: black;
+  background-color: var(--color-primary);
+  border-radius: 5px;
+  color: black;
+}
+
+.payment__option:hover {
+  /* background-color: var(--color-bg-variant); */
+  cursor: pointer;
+}
+
+.payment__option:active {
+  background-color: var(--color-bg-variant);
+}
+
+.payment__option:focus {
+  background-color: var(--color-bg-variant);
+}
+
+.payment__option > p {
+  margin-top: 13px;
+  margin-left: 20px;
+}
+
+.payment__option__button > button {
+  color: black;
+  background-color: var(--color-primary-variant);
+}

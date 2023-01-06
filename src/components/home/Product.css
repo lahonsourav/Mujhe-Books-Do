@@ -59,7 +59,7 @@
 }
 
 .product__info {
-  height: 80px;
+  overflow-y: hidden;
 }
 
 .product__rating {

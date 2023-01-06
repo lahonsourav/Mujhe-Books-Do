@@ -1,6 +1,9 @@
 import React from "react";
 import "./Home.css";
 import BANNER from "../../images/bookbanner.png";
+import BANNERTW from "../../images/bookbannertwo.jpg";
+import BANNERTH from "../../images/bookbannerthree.jpg";
+
 import Product from "./Product.jsx";
 import COMING from "../../images/coming.gif";
 import JEC from "../../BookImages/jec.webp";
@@ -23,14 +26,37 @@ import CHEMONE from "../../BookImages/chemone.webp";
 import CHEMTWO from "../../BookImages/chemtwo.jpg";
 import CHEMTHREE from "../../BookImages/chemthree.jpg";
 
-
 import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/autoplay";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="home__container">
-        <img className="home__image" src={BANNER} alt="banner__image" />
+        <Swiper
+          pagination={{
+            dynamicBullets: true,
+          }}
+          autoplay={{ delay: 2500 }}
+          modules={[Pagination, Autoplay]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <img className="home__image" src={BANNER} alt="banner__image" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img className="home__image" src={BANNERTW} alt="banner__image" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img className="home__image" src={BANNERTH} alt="banner__image" />
+          </SwiperSlide>
+        </Swiper>
+
         <div className="home__aboutStar">
           <small>A boy who never read any book built this website</small>
         </div>
@@ -207,11 +233,9 @@ const Home = () => {
             </div>
           </div>
 
-          <Link to="/sell" className="home__aboutStar__sell">
-            <small>Sell your Books</small>
+          <Link to="#" className="home__aboutStar__sell">
+            <small>Back to Top</small>
           </Link>
-
-          
         </div>
       </div>
     </div>

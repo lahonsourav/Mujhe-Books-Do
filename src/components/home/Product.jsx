@@ -2,7 +2,7 @@ import React from "react";
 import "./Product.css";
 import { useStateValue } from "../stateprovider/StateProvider";
 
-function Product({ id, title, image, price, author, rating }) {
+function Product({ id, title, author, image, price, rating }) {
   // const [state, dispatch] = useStateValue();
   const [{ basket }, dispatch] = useStateValue();
 
@@ -12,9 +12,9 @@ function Product({ id, title, image, price, author, rating }) {
       item: {
         id: id,
         title: title,
+        author: author,
         image: image,
         price: price,
-        author: author,
         rating: rating,
       },
     });
@@ -24,7 +24,7 @@ function Product({ id, title, image, price, author, rating }) {
       <div className="product__info">
         <p> {title}</p>
         <p className="author__name"> {author}</p>
-        <p className="priduct__price">
+        <p className="product__price">
           <small>₹</small>
           <strong>{price}</strong>
         </p>

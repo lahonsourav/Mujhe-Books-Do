@@ -14,6 +14,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import About from "./components/about/About";
 import Payment from "./components/payment/Payment";
 import NavMobile from "./components/nav/NavMobile";
+import Order from "./components/order/Order";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -45,7 +46,6 @@ function App() {
     //BEM
     <Router>
       <div className="App">
-
         <Routes>
           <Route
             path="/"
@@ -98,7 +98,6 @@ function App() {
                 <NavMobile />
                 <Header />
                 <Dashboard />
-                <Footer />
               </>
             }
           ></Route>
@@ -109,7 +108,6 @@ function App() {
               <>
                 <Header />
                 <Checkout />
-                <Footer />
               </>
             }
           ></Route>
@@ -119,7 +117,15 @@ function App() {
             element={
               <>
                 <Payment />
-                <Footer />
+              </>
+            }
+          ></Route>
+
+          <Route
+            path="/order"
+            element={
+              <>
+                <Order />
               </>
             }
           ></Route>
