@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { useStateValue } from "../stateprovider/StateProvider";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../../firebase";
+import Search from "../search/Search";
 
 const Header = () => {
   const [user, loading] = useAuthState(auth);
@@ -18,14 +19,7 @@ const Header = () => {
         <img className="header__logo" src={LOGO} alt="logo" />
       </Link>
 
-      <div className="header__search">
-        <input
-          className="header__searchInput"
-          type="text"
-          placeholder="Search book..."
-        />
-        <BsSearch className="header__searchIcon" />
-      </div>
+      <Search/>
 
       <div className="header__nav">
         <Link to="/sell">
@@ -36,8 +30,8 @@ const Header = () => {
         </Link>
         <Link to="/about">
           <div className="header__option">
-            <span className="header__optionLineOne">About Version</span>
-            <span className="header__optionLineTwo">Closed Beta</span>
+            <span className="header__optionLineOne">About site</span>
+            <span className="header__optionLineTwo">Know more</span>
           </div>
         </Link>
         {!user && (

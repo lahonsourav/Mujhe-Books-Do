@@ -14,7 +14,7 @@ const Footer = () => {
         <ul className="social-links">
           <li>
             <a href="#">
-              <BsFacebook />{" "}
+              <BsFacebook />
             </a>
           </li>
           <li>
@@ -23,17 +23,20 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/lahonsourav">
+            <a href="https://github.com/lahonsourav" target="_blank">
               <BsGithub />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://lahon.netlify.app" target='_blank'>
               <CgProfile />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/in/sourav-lahon-413a48228/"
+              target="_blank"
+            >
               <BsLinkedin />
             </a>
           </li>

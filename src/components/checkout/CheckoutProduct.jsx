@@ -19,18 +19,20 @@ function CheckoutProduct({ id, image, title, author, price, rating }) {
         alt="product Image "
       />
       <div className="checkoutProduct__info">
-        <p className="checkoutProduct__title">{title}</p>
-        <p className="checkoutProduct__author">{author}</p>
-        <p className="checkoutProduct__price">
-          <small>₹</small>
-          <strong className="rs">{price}</strong>
-        </p>
-        <div className="checkoutProduct__rating">
+        <div className="only__info">
+          <p className="checkoutProduct__title">{title}</p>
+          <p className="checkoutProduct__author">{author}</p>
+          <p className="checkoutProduct__price">
+            <small>₹</small>
+            <strong className="rs">{price}</strong>
+          </p>
+          {/* <div className="checkoutProduct__rating">
           {Array(rating)
             .fill()
             .map((_, i) => (
               <p>⭐</p>
             ))}
+        </div> */}
         </div>
         <button onClick={removeFromBasket}>Remove</button>
       </div>

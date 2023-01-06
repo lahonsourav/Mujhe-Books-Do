@@ -45,7 +45,6 @@ footer {
 @media (max-width: 560px) {
   .container {
     max-width: 480px;
-    margin-bottom: 30px;
     margin-left: 20px;
     margin-right: 20px;
   }

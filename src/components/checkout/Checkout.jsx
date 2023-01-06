@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Checkout.css";
 import CHARITY from "../../images/charity.png";
 import Subtotal from "./Subtotal";
@@ -7,6 +7,8 @@ import CheckoutProduct from "./CheckoutProduct";
 import FlipMove from "react-flip-move";
 
 function Checkout() {
+
+
   const [{ basket }, dispatch] = useStateValue();
 
   return (

@@ -66,6 +66,7 @@ const Home = () => {
             <small className="category__name">User's Favorite</small>
             <div className="home__row">
               <Product
+                id="1"
                 title="Arnav Astha aru JEC"
                 price={220}
                 author="Indrani Sharma"
@@ -73,6 +74,7 @@ const Home = () => {
                 rating={5}
               />
               <Product
+                id="2"
                 title="The Secret"
                 author="Rhonda Byrne"
                 price={799}
@@ -80,6 +82,7 @@ const Home = () => {
                 rating={4}
               />
               <Product
+                id="3"
                 title="Ignited minds"
                 author="APJ Abdul Kalam"
                 price={189}
@@ -87,6 +90,7 @@ const Home = () => {
                 rating={5}
               />
               <Product
+                id="4"
                 title="A brief history of 7 killings"
                 author="Marlon James"
                 price={499}
@@ -96,7 +100,7 @@ const Home = () => {
             </div>
             <div className="home__row">
               <Product
-                id="1"
+                id="5"
                 title="Pride and Prejudice"
                 author="Jane Austen"
                 price={99}
@@ -104,7 +108,7 @@ const Home = () => {
                 rating={5}
               />
               <Product
-                id="2"
+                id="6"
                 title="বকুল ফুলৰ দৰে "
                 author="ড° মৃণাল কলিতা "
                 price={200}
@@ -112,7 +116,7 @@ const Home = () => {
                 rating={2}
               />
               <Product
-                id="3"
+                id="7"
                 title="Wings of fire"
                 author="APJ Abdul Kalam"
                 price={150}
@@ -120,7 +124,7 @@ const Home = () => {
                 rating={4}
               />
               <Product
-                id="3"
+                id="8"
                 title="One Indian Girl"
                 author="Chetan Bhagat"
                 price={130}
@@ -130,7 +134,7 @@ const Home = () => {
             </div>
             <div className="home__row">
               <Product
-                id="4"
+                id="9"
                 title="অসীমত যাৰ হেৰাল সীমা"
                 author="কাঞ্চন বৰুৱা"
                 price={300}
@@ -138,7 +142,7 @@ const Home = () => {
                 rating={3}
               />
               <Product
-                id="4"
+                id="10"
                 title="Lord of the Rings"
                 author="J.R.R. Tolkien"
                 price={649}
@@ -146,7 +150,7 @@ const Home = () => {
                 rating={3}
               />
               <Product
-                id="4"
+                id="11"
                 title="The White Tiger"
                 author="Aravind Adiga"
                 price={399}
@@ -154,7 +158,7 @@ const Home = () => {
                 rating={3}
               />
               <Product
-                id="3"
+                id="12"
                 title="Train to Pakistan"
                 author="Khushwant Singh"
                 price={120}
@@ -168,6 +172,7 @@ const Home = () => {
             <small className="category__name">Student's Library</small>
             <div className="home__row">
               <Product
+                id="13"
                 title="Concept of Physics"
                 author="HC Verma"
                 price={399}
@@ -175,7 +180,7 @@ const Home = () => {
                 rating={4}
               />
               <Product
-                id="1"
+                id="14"
                 title="Handbook of Chemistry"
                 author="Arihant"
                 price={188}
@@ -183,6 +188,7 @@ const Home = () => {
                 rating={5}
               />
               <Product
+                id="15"
                 title="21 years JEE main PYQ"
                 author="MTG"
                 price={449}
@@ -190,7 +196,7 @@ const Home = () => {
                 rating={3}
               />
               <Product
-                id="1"
+                id="16"
                 title="General Organic Chemistry"
                 author="Disha Publications"
                 price={140}
@@ -200,7 +206,7 @@ const Home = () => {
             </div>
             <div className="home__row">
               <Product
-                id="1"
+                id="17"
                 title="Chemistry Problem Book"
                 author="Wiley Editorial"
                 price={690}
@@ -209,6 +215,7 @@ const Home = () => {
               />
 
               <Product
+                id="18"
                 title="Engineering Physics"
                 author="HK Malik"
                 price={799}
@@ -216,7 +223,7 @@ const Home = () => {
                 rating={3}
               />
               <Product
-                id="1"
+                id="19"
                 title="More Books"
                 author="Coming soon"
                 price={999}
@@ -224,6 +231,7 @@ const Home = () => {
                 rating={5}
               />
               <Product
+                id="20"
                 title="Handbook of Physics"
                 author="Arihant"
                 price={210}
@@ -233,8 +241,8 @@ const Home = () => {
             </div>
           </div>
 
-          <Link to="#" className="home__aboutStar__sell">
-            <small>Back to Top</small>
+          <Link to="/sell" className="home__aboutStar__sell">
+            <small>Sell Book</small>
           </Link>
         </div>
       </div>

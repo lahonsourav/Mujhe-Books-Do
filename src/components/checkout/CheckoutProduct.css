@@ -53,7 +53,7 @@
 
   .checkoutProduct__image {
     border-radius: 10px;
-    max-width: 70px;
+    max-width: 40px;
     max-height: 70px;
     margin-right: 5px;
   }
@@ -62,12 +62,18 @@
     padding-left: 3px;
   }
 
+  .only__info
+ {
+  max-height: 70px;
+ }
+
   .checkoutProduct__info > button {
     border-radius: 3px;
-    width: 90%;
+    max-width: 60%;
     height: 25px;
     border: 1px solid;
-    margin-top: 10px;
+    margin-top: 3px;
+    transform: scale(0.7);
   }
 
   .checkoutProduct__title {
@@ -77,5 +83,10 @@
 
   .rs {
     font-size: 12px;
+  }
+
+  .checkoutProduct__author {
+    font-size: 9px;
+    font-weight: 300;
   }
 }

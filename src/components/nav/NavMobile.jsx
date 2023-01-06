@@ -24,11 +24,9 @@ const Header = () => {
         <Link to="/about">
           <div className="nav__mobile-header__option">
             <span className="nav__mobile-header__optionLineOne">
-              About Version
+              About site
             </span>
-            <span className="nav__mobile-header__optionLineTwo">
-              Closed Beta
-            </span>
+            <span className="nav__mobile-header__optionLineTwo">Know more</span>
           </div>
         </Link>
 
