@@ -22,7 +22,13 @@
 }
 
 .payment__cardForm {
-  background-color: var(--color-primary);
+  padding: 15px;
+  height: 50px;
+  width: 500px;
+  border-color: black;
+  background-color: var(--color-primary-variant);
+  border-radius: 5px;
+  color: black;
 }
 .payment__section__last {
   display: flex;
@@ -38,4 +44,8 @@
 .payment__items,
 .payment__details {
   flex: 0.8;
+}
+
+.payment__option__button {
+  margin-top: 20px;
 }

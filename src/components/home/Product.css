@@ -23,17 +23,13 @@
 
 .product > img {
   transition: var(--transition);
-
+  margin-top: 4px;
   border-radius: 10px;
   max-height: 200px;
   max-width: 200px;
   width: 100%;
   object-fit: contain;
   /* margin-bottom: 15px; */
-}
-
-.product > img:hover {
-  transform: scale(1.1);
 }
 
 .product__info .author__name {
@@ -52,7 +48,7 @@
   border-radius: 2px;
   background: var(--color-primary);
   border: 1px solid;
-  margin-top: 20px;
+  margin-top: 10px;
   border-color: var(--color-bg);
   color: black;
   /* z-index: 1000; */
@@ -67,6 +63,7 @@
 }
 
 .flash-message {
+  max-height: 65px;
   position: fixed;
   top: 70px;
   width: 500px;
@@ -81,7 +78,7 @@
   color: var(--color-bg);
   font-size: 1.5rem;
   font-weight: 600;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-name: slidein;
 }
 
@@ -174,5 +171,26 @@
 
   .product__info .author__name {
     font-size: 9px;
+  }
+
+  .flash-message {
+    position: fixed;
+    max-height: 40px;
+
+    top: 70px;
+    width: 500px;
+    left: 64%;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: var(--color-primary-variant);
+    color: var(--color-bg);
+    font-size: 0.7rem;
+    font-weight: 100;
+    animation-duration: 1s;
+    animation-name: slidein;
   }
 }

@@ -1,0 +1,25 @@
+.orders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.image__container > img {
+  margin-top: 40px;
+  max-width: 900px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.orders > h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.continue {
+    margin-top: 20px;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: var(--color-primary);
+}

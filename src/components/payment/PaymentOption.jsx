@@ -4,6 +4,8 @@ import "./PaymentOption.css";
 import { MdError } from "react-icons/md";
 import { Link } from "react-router-dom";
 
+
+
 const PaymentOption = () => {
   return (
     <div className="payment__options">
@@ -37,9 +39,7 @@ const PaymentOption = () => {
           <p>Pay on Delivery</p>
           <BsFillCheckCircleFill className="payment__methodIcon" />
         </Link>
-        {/* <div className="payment__option__button">
-          <button>Proceed and Order</button>
-        </div> */}
+        
       </div>
     </div>
   );

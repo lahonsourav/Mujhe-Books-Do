@@ -31,13 +31,13 @@ function Subtotal() {
           prefix={"₹"}
         />
 
-        <button onClick={e => navigate("/payment", { replace: true })}>Proceed to Checkout</button>
+        <button onClick={(e) => navigate("/payments", { replace: true })}>
+          Proceed to Checkout
+        </button>
       </div>
 
       <div className="subtotal__two">
-        <p>
-          Thank you for purchasing books from our site.
-        </p>
+        <p>Thank you for purchasing books from our site.</p>
       </div>
     </>
   );

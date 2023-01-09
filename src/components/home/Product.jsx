@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import "./Product.css";
 import { useStateValue } from "../stateprovider/StateProvider";
+import { Link, useNavigate } from "react-router-dom";
 
 function Product({ id, title, author, image, price, rating }) {
   // const [state, dispatch] = useStateValue();
   const [{ basket }, dispatch] = useStateValue();
   const [showMessage, setShowMessage] = useState(false);
   const [message, setMessage] = useState("");
+  const navigate = useNavigate();
 
   const addToBasket = () => {
     dispatch({
@@ -28,6 +30,12 @@ function Product({ id, title, author, image, price, rating }) {
     addToBasket();
   };
 
+  const toLanding = () => {
+    navigate("/landing", { replace: false });
+  };
+
+
+
   if (!showMessage) {
     return (
       <div className="product">
@@ -47,7 +55,8 @@ function Product({ id, title, author, image, price, rating }) {
             ))}
         </div> */}
         </div>
-        <img src={image} alt="" />
+
+        <img  src={image} alt="" />
 
         <button onClick={handleClick}>Add to Cart</button>
       </div>
@@ -88,7 +97,7 @@ function Product({ id, title, author, image, price, rating }) {
       </div>
       <img src={image} alt="" />
 
-      <button onClick={addToBasket}>Add to Cart</button>
+      <button>Add to Cart</button>
     </div>
   );
 }

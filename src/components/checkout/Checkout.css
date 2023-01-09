@@ -57,3 +57,13 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (max-width: 900px) {
+  .checkout {
+    overflow-x: hidden;
+  }
+  .checkout__items-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

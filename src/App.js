@@ -10,9 +10,8 @@ import Footer from "./components/footer/Footer";
 import { useEffect } from "react";
 import { auth } from "./firebase";
 import { useStateValue } from "./components/stateprovider/StateProvider";
-import { onAuthStateChanged } from "firebase/auth";
 import About from "./components/about/About";
-import Payment from "./components/payment/Payment";
+import Payments from "./components/payment/Payments";
 import NavMobile from "./components/nav/NavMobile";
 import Order from "./components/order/Order";
 
@@ -83,7 +82,6 @@ function App() {
             element={
               <>
                 <About />
-                <Footer />
               </>
             }
           ></Route>
@@ -121,11 +119,11 @@ function App() {
           ></Route>
 
           <Route
-            path="/payment"
+            path="/payments"
             element={
               <>
                 <Elements stripe={promise}>
-                  <Payment />
+                  <Payments />
                 </Elements>
               </>
             }
