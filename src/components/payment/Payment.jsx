@@ -35,6 +35,8 @@ const Payment = () => {
     getClientSecret();
   }, [basket]);
 
+  console.log("The secret is ", clientSecret);
+
   const handleSubmit = async (event) => {
     //do all the stripe stuff here
     event.preventDefault();
@@ -124,7 +126,10 @@ const Payment = () => {
             {/* stripe work */}
 
             <form onSubmit={handleSubmit}>
-              <CardElement onChange={handleChange} />
+              <CardElement
+                className="payment__cardForm"
+                onChange={handleChange}
+              />
               <button disabled={processing || disabled || succeded}>
                 <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
               </button>

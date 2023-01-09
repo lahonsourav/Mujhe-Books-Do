@@ -14,28 +14,21 @@ const PaymentOption = () => {
           }}
           className="payment__option"
         >
-          <p>Internet Banking</p>
+          <p>Scan QR code</p>
           <MdError className="payment__methodIcon" />
         </div>
-        <div
-          onClick={() => {
-            alert("Select Pay on Delivery\nother options not available");
-          }}
-          className="payment__option"
-        >
-          <p>Credit and Debit Card</p>
-          <MdError className="payment__methodIcon" />
-        </div>
+
         <div
           onClick={() => {
             alert("Please select Pay on Delivery\nother options not available");
           }}
           className="payment__option"
         >
-          <p>Wallet</p>
+          <p>Internet Banking</p>
           <MdError className="payment__methodIcon" />
         </div>
-        <Link to='/order'
+        <Link
+          to="/order"
           //   onClick={() => {
           //     alert("Click Proceed to Pay");
           //   }}

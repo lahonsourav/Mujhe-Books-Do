@@ -21,6 +21,9 @@
   border-bottom: 1px solid lightgray;
 }
 
+.payment__cardForm {
+  background-color: var(--color-primary);
+}
 .payment__section__last {
   display: flex;
   padding: 20px;
