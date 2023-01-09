@@ -1,0 +1,38 @@
+.about {
+  background-color: white;
+}
+
+.about__container > h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: var(--color-primary-variant);
+  border-bottom: 1px solid lightgray;
+}
+
+.about__container > h1 a {
+  text-decoration: none;
+}
+
+.about__section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.about__section__last {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+}
+
+.about__title {
+  flex: 0.3;
+}
+
+.about__address,
+.about__items,
+.about__details {
+  flex: 0.7;
+}

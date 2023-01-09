@@ -16,6 +16,13 @@ import Payment from "./components/payment/Payment";
 import NavMobile from "./components/nav/NavMobile";
 import Order from "./components/order/Order";
 
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
+
+const promise = loadStripe(
+  "pk_test_51MOEHvSAmgVrd7Auw275yln50qYzQZjPBxQsRFJU5ys7GgGl1lav1Wx7Am1UDhyri4ZRjg7RwtVxtM4b5ZMk3nkk00MczFsiwI"
+);
+
 function App() {
   const [{}, dispatch] = useStateValue();
 
@@ -54,6 +61,7 @@ function App() {
                 {" "}
                 <NavMobile />
                 <Header />
+                {/* <Alert /> */}
                 <Home />
                 <Footer />
               </>
@@ -116,7 +124,9 @@ function App() {
             path="/payment"
             element={
               <>
-                <Payment />
+                <Elements stripe={promise}>
+                  <Payment />
+                </Elements>
               </>
             }
           ></Route>

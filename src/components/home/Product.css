@@ -66,6 +66,65 @@
   display: flex;
 }
 
+.flash-message {
+  position: fixed;
+  top: 70px;
+  width: 500px;
+  left: 82%;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: var(--color-primary-variant);
+  color: var(--color-bg);
+  font-size: 1.5rem;
+  font-weight: 600;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+.flash-message > p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  font-weight: 300;
+}
+
+.flash-message.closing {
+  animation: fadeOut 3s ease-in-out;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 @media (max-width: 560px) {
   .product {
     margin: 5px;

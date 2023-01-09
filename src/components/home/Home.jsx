@@ -42,7 +42,7 @@ const Home = () => {
           pagination={{
             dynamicBullets: true,
           }}
-          autoplay={{ delay: 2500 }}
+          autoplay={{ delay: 3000 }}
           modules={[Pagination, Autoplay]}
           className="mySwiper"
         >
