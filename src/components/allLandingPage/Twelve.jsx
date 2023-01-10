@@ -1,13 +1,13 @@
 import React from "react";
 import "./allLanding.css";
-import JEC from "../../BookImages/jec.webp";
+import TIGER from "../../BookImages/tiger.jpg";
 
 const One = () => {
   return (
     <div className="landing">
       <div className="landing__container">
         <div className="landing__left">
-          <img src={JEC} alt="" />
+          <img src={TIGER} alt="" />
 
           <a href="" className="addButton">
             Download PDF
@@ -16,37 +16,36 @@ const One = () => {
 
         <div className="landing__right">
           <div className="landing__product__info">
-            <p> Arnav Astha aru JEC</p>
-            <p className="landing__author__name"> Indranee Sharma</p>
+            <p> The White Tiger</p>
+            <p className="landing__author__name"> Aravind Adiga</p>
             <p className="landing__product__price">
               <small>₹</small>
-              <strong>200</strong>
+              <strong>399</strong>
             </p>
           </div>
           <div className="landing__details">
             <small>
-              ''ভিজা চুলিত মোৰ উশাহ সামৰি আৰু ওচৰলৈ নাহিবা মিছ্ আস্থা... আকৌ
-              এবাৰ ৰঙা কৰি দিম তোমাৰ টোল পৰা দুগালৰ ৰং.. চুই চাম তোমাৰ 'পোৱালি'
-              'পোৱালি' আঙুলিৰ ভাঁজ... এই যে তোমাক সামৰি লম বুকুৰ মাজত, কোনেও
-              আঁতৰাই নিব নোৱাৰে আনকি তুমি নিজেও..'' প্ৰথম প্ৰেমৰ মিঠা মিঠা ৰাগীত
-              মাতাল দুটি আলসুৱা মন। এই প্ৰেম সাধাৰণ, সহজ, সৰল আৰু আপোন। শেৱালি
-              ফুলৰ সুগন্ধি লাগিছে আস্থাৰ গালত, অৰ্ণৱৰ হাতত, জেইচিৰ বতাহত। কঁপি
-              থকা বুকুৰ ধপধপনি দুয়োৰে বাবেই নতুন, প্ৰথম, ভাললগা। ভালপোৱাৰ এজাক
-              বৰষুণৰ নাম "অৰ্ণৱ আস্থা আৰু JEC"। ফেচবুক পেজ 'অৰ্ধ আকাশ'ত
-              আত্মপ্ৰকাশ কৰি চছিয়েল মিডিয়াত তোলপাৰ লগোৱা আৰু পিছলৈ কিতাপ আকাৰে
-              ছপা হোৱা জনপ্ৰিয় উপন্যাস 'অৰ্ণব, আস্থা আৰু JEC' এইবাৰ আপোনালোকৰ
-              কাষলৈ আহিছে শ্ৰাব্য ৰূপত। কলেজীয়া জীৱনৰ বন্ধুত্ব আৰু প্ৰেমৰ
-              মাদকতাই সুকীয়া। তাতে যেতিয়া বিপৰীত স্বভাৱৰ দুজন মানুহ প্ৰেমত পৰে,
-              সময় হৈ পৰে অভিমান আৰু আদৰৰ এক অদ্ভুত মিশ্ৰণ। অৰ্ণব আৰু আস্থাৰ
-              কাহিনীটোও কিছু তেনেকুৱাই। শান্ত, অন্তৰ্মুখী আস্থাই সামৰি লব পাৰিব
-              নে অৰ্ণবৰ উগ্ৰ, বেপৰুৱা প্ৰেমক? অৰ্ণবৰ জীৱনৰ এটা গোপন সত্য আছে।
-              আস্থাই পাৰিব নে অৰ্ণবক সেই সত্যৰ সৈতে মুখামুখি কৰাই দিব? সহজ সৰল
-              প্ৰেমৰ ধুনীয়া কাহিনী 'অৰ্ণব, আস্থা আৰু JEC' ইন্দ্ৰাণী শৰ্মাৰ প্ৰথম
-              উপন্যাস।
+              The White Tiger is a novel by Indian author Aravind Adiga. It was
+              published in 2008 and won the 40th Booker Prize the same year. The
+              novel provides a darkly humorous perspective of India's class
+              struggle in a globalized world as told through a retrospective
+              narration from Balram Halwai, a village boy. The novel examines
+              issues of the Hindu religion, caste, loyalty, corruption and
+              poverty in India. The novel has been well-received, making the New
+              York Times bestseller list in addition to winning the Booker
+              Prize. Aravind Adiga, 33 at the time, was the second youngest
+              writer as well as the fourth debut writer to win the prize. Adiga
+              says his novel "attempt to catch the voice of the men you meet as
+              you travel through India — the voice of the colossal underclass."
+              According to Adiga, the exigence for The White Tiger was to
+              capture the unspoken voice of people from "the Darkness" – the
+              impoverished areas of rural India, and he "wanted to do so without
+              sentimentality or portraying them as mirthless humorless weaklings
+              as they are usually."
             </small>
             <br />
-            <a href="https://www.storytel.com/in/en/books/arnab-aastha-aru-jec-1104462">
-              Listen AudioBook Storytell
+            <a href="https://www.google.com/search?q=synopsis+of+The+White+Tiger&rlz=1C1ONGR_enIN1016IN1016&sxsrf=AJOqlzX_tO5S5lPZBqrSEADunlyVcGevDg%3A1673375541497&ei=Na-9Y7GDHuLh4-EP4sKXwAI&ved=0ahUKEwjx8efV0b38AhXi8DgGHWLhBSgQ4dUDCA8&uact=5&oq=synopsis+of+The+White+Tiger&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIECCMQJzIECCMQJzIECAAQQzIFCAAQkQIyBQgAEJECMgUIABCRAjIFCAAQkQIyBQgAEIAEMgUIABCABDoKCAAQRxDWBBCwA0oECEEYAEoECEYYAFC-AljoBGDvBmgBcAF4AIAB9wGIAfcBkgEDMi0xmAEAoAEBoAECyAEIwAEB&sclient=gws-wiz-serp">
+              Read Summary
             </a>
           </div>
         </div>

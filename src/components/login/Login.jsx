@@ -119,7 +119,7 @@ const Login = () => {
         </button>
       </div>
 
-      <small>By signing in you agree to our privacy policy</small>
+      <small>Click Sign in with Google for oneclick login</small>
     </div>
   );
 };

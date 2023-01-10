@@ -1,13 +1,13 @@
 import React from "react";
 import "./allLanding.css";
-import JEC from "../../BookImages/jec.webp";
+import GREAT from "../../BookImages/great.jpg";
 
 const One = () => {
   return (
     <div className="landing">
       <div className="landing__container">
         <div className="landing__left">
-          <img src={JEC} alt="" />
+          <img src={GREAT} alt="" />
 
           <a href="" className="addButton">
             Download PDF
@@ -16,37 +16,24 @@ const One = () => {
 
         <div className="landing__right">
           <div className="landing__product__info">
-            <p> Arnav Astha aru JEC</p>
-            <p className="landing__author__name"> Indranee Sharma</p>
+            <p> A Great Man</p>
+            <p className="landing__author__name"> Kate Christensen</p>
             <p className="landing__product__price">
               <small>₹</small>
-              <strong>200</strong>
+              <strong>3242</strong>
             </p>
           </div>
           <div className="landing__details">
             <small>
-              ''ভিজা চুলিত মোৰ উশাহ সামৰি আৰু ওচৰলৈ নাহিবা মিছ্ আস্থা... আকৌ
-              এবাৰ ৰঙা কৰি দিম তোমাৰ টোল পৰা দুগালৰ ৰং.. চুই চাম তোমাৰ 'পোৱালি'
-              'পোৱালি' আঙুলিৰ ভাঁজ... এই যে তোমাক সামৰি লম বুকুৰ মাজত, কোনেও
-              আঁতৰাই নিব নোৱাৰে আনকি তুমি নিজেও..'' প্ৰথম প্ৰেমৰ মিঠা মিঠা ৰাগীত
-              মাতাল দুটি আলসুৱা মন। এই প্ৰেম সাধাৰণ, সহজ, সৰল আৰু আপোন। শেৱালি
-              ফুলৰ সুগন্ধি লাগিছে আস্থাৰ গালত, অৰ্ণৱৰ হাতত, জেইচিৰ বতাহত। কঁপি
-              থকা বুকুৰ ধপধপনি দুয়োৰে বাবেই নতুন, প্ৰথম, ভাললগা। ভালপোৱাৰ এজাক
-              বৰষুণৰ নাম "অৰ্ণৱ আস্থা আৰু JEC"। ফেচবুক পেজ 'অৰ্ধ আকাশ'ত
-              আত্মপ্ৰকাশ কৰি চছিয়েল মিডিয়াত তোলপাৰ লগোৱা আৰু পিছলৈ কিতাপ আকাৰে
-              ছপা হোৱা জনপ্ৰিয় উপন্যাস 'অৰ্ণব, আস্থা আৰু JEC' এইবাৰ আপোনালোকৰ
-              কাষলৈ আহিছে শ্ৰাব্য ৰূপত। কলেজীয়া জীৱনৰ বন্ধুত্ব আৰু প্ৰেমৰ
-              মাদকতাই সুকীয়া। তাতে যেতিয়া বিপৰীত স্বভাৱৰ দুজন মানুহ প্ৰেমত পৰে,
-              সময় হৈ পৰে অভিমান আৰু আদৰৰ এক অদ্ভুত মিশ্ৰণ। অৰ্ণব আৰু আস্থাৰ
-              কাহিনীটোও কিছু তেনেকুৱাই। শান্ত, অন্তৰ্মুখী আস্থাই সামৰি লব পাৰিব
-              নে অৰ্ণবৰ উগ্ৰ, বেপৰুৱা প্ৰেমক? অৰ্ণবৰ জীৱনৰ এটা গোপন সত্য আছে।
-              আস্থাই পাৰিব নে অৰ্ণবক সেই সত্যৰ সৈতে মুখামুখি কৰাই দিব? সহজ সৰল
-              প্ৰেমৰ ধুনীয়া কাহিনী 'অৰ্ণব, আস্থা আৰু JEC' ইন্দ্ৰাণী শৰ্মাৰ প্ৰথম
-              উপন্যাস।
+              Two competing biographers, both working to document the life and
+              times of a man who made his fortune painting nude women, turn for
+              information to the women who had shared his life: his wife, his
+              mistress, and his sister, who is also a painter. Oscar Feldman was
+              married to Abigail, the daughter of a rich Jewish family.
             </small>
             <br />
-            <a href="https://www.storytel.com/in/en/books/arnab-aastha-aru-jec-1104462">
-              Listen AudioBook Storytell
+            <a href="https://www.google.com/search?q=synopsis+of+A+Great+Man&rlz=1C1ONGR_enIN1016IN1016&sxsrf=AJOqlzUlgxtFE3JhrqtG86IDtpxYo1IQXg%3A1673376511228&ei=_7K9Y4rODcGemgeWxoCYCQ&ved=0ahUKEwjKyZuk1b38AhVBj-YKHRYjAJMQ4dUDCA8&uact=5&oq=synopsis+of+A+Great+Man&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyCAghEBYQHhAdMggIIRAWEB4QHTIICCEQFhAeEB0yCAghEBYQHhAdMggIIRAWEB4QHToKCAAQRxDWBBCwA0oECEEYAEoECEYYAFDlBFjlBGDeCWgBcAF4AIABhgKIAYYCkgEDMi0xmAEAoAECoAEByAEIwAEB&sclient=gws-wiz-serp">
+              Read Summary
             </a>
           </div>
         </div>

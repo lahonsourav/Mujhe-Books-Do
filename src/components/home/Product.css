@@ -14,11 +14,7 @@
   border-radius: 10px;
   transition: var(--transition);
   color: var(--color-bg);
-
-
 }
-
-
 
 .product > img {
   transition: var(--transition);
@@ -172,7 +168,6 @@
     width: 100%;
     object-fit: contain;
     margin-top: 0;
-
   }
 
   .product > img:hover {
@@ -188,20 +183,12 @@
   }
 
   .flash-message {
-    position: fixed;
     max-height: 40px;
 
-    top: 70px;
-    width: 500px;
     left: 64%;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
     padding: 1rem;
-    background-color: var(--color-primary-variant);
-    color: var(--color-bg);
+
     font-size: 0.7rem;
     font-weight: 100;
     animation-duration: 0.5s;
@@ -212,5 +199,21 @@
     animation-duration: 2s;
     animation-name: slidein;
     font-weight: 300;
+  }
+}
+
+@media (max-width: 900px) {
+  .flash-message {
+    left: 67%;
+  }
+
+  .flash-message > p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    font-weight: 300;
+  }
+
+  .flash-message.closing {
+    animation: fadeOut 3s ease-in-out;
   }
 }

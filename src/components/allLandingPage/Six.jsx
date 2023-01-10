@@ -1,13 +1,13 @@
 import React from "react";
 import "./allLanding.css";
-import JEC from "../../BookImages/jec.webp";
+import BOKUL from "../../BookImages/bokul.jpg";
 
 const One = () => {
   return (
     <div className="landing">
       <div className="landing__container">
         <div className="landing__left">
-          <img src={JEC} alt="" />
+          <img src={BOKUL} alt="" />
 
           <a href="" className="addButton">
             Download PDF
@@ -16,8 +16,8 @@ const One = () => {
 
         <div className="landing__right">
           <div className="landing__product__info">
-            <p> Arnav Astha aru JEC</p>
-            <p className="landing__author__name"> Indranee Sharma</p>
+            <p> বকুল ফুলৰ দৰে</p>
+            <p className="landing__author__name"> ড° মৃণাল কলিতা</p>
             <p className="landing__product__price">
               <small>₹</small>
               <strong>200</strong>
@@ -25,28 +25,23 @@ const One = () => {
           </div>
           <div className="landing__details">
             <small>
-              ''ভিজা চুলিত মোৰ উশাহ সামৰি আৰু ওচৰলৈ নাহিবা মিছ্ আস্থা... আকৌ
-              এবাৰ ৰঙা কৰি দিম তোমাৰ টোল পৰা দুগালৰ ৰং.. চুই চাম তোমাৰ 'পোৱালি'
-              'পোৱালি' আঙুলিৰ ভাঁজ... এই যে তোমাক সামৰি লম বুকুৰ মাজত, কোনেও
-              আঁতৰাই নিব নোৱাৰে আনকি তুমি নিজেও..'' প্ৰথম প্ৰেমৰ মিঠা মিঠা ৰাগীত
-              মাতাল দুটি আলসুৱা মন। এই প্ৰেম সাধাৰণ, সহজ, সৰল আৰু আপোন। শেৱালি
-              ফুলৰ সুগন্ধি লাগিছে আস্থাৰ গালত, অৰ্ণৱৰ হাতত, জেইচিৰ বতাহত। কঁপি
-              থকা বুকুৰ ধপধপনি দুয়োৰে বাবেই নতুন, প্ৰথম, ভাললগা। ভালপোৱাৰ এজাক
-              বৰষুণৰ নাম "অৰ্ণৱ আস্থা আৰু JEC"। ফেচবুক পেজ 'অৰ্ধ আকাশ'ত
-              আত্মপ্ৰকাশ কৰি চছিয়েল মিডিয়াত তোলপাৰ লগোৱা আৰু পিছলৈ কিতাপ আকাৰে
-              ছপা হোৱা জনপ্ৰিয় উপন্যাস 'অৰ্ণব, আস্থা আৰু JEC' এইবাৰ আপোনালোকৰ
-              কাষলৈ আহিছে শ্ৰাব্য ৰূপত। কলেজীয়া জীৱনৰ বন্ধুত্ব আৰু প্ৰেমৰ
-              মাদকতাই সুকীয়া। তাতে যেতিয়া বিপৰীত স্বভাৱৰ দুজন মানুহ প্ৰেমত পৰে,
-              সময় হৈ পৰে অভিমান আৰু আদৰৰ এক অদ্ভুত মিশ্ৰণ। অৰ্ণব আৰু আস্থাৰ
-              কাহিনীটোও কিছু তেনেকুৱাই। শান্ত, অন্তৰ্মুখী আস্থাই সামৰি লব পাৰিব
-              নে অৰ্ণবৰ উগ্ৰ, বেপৰুৱা প্ৰেমক? অৰ্ণবৰ জীৱনৰ এটা গোপন সত্য আছে।
-              আস্থাই পাৰিব নে অৰ্ণবক সেই সত্যৰ সৈতে মুখামুখি কৰাই দিব? সহজ সৰল
-              প্ৰেমৰ ধুনীয়া কাহিনী 'অৰ্ণব, আস্থা আৰু JEC' ইন্দ্ৰাণী শৰ্মাৰ প্ৰথম
-              উপন্যাস।
+              বকুল ফুলৰ দৰে হৈছে ড॰ মৃণাল কলিতাৰ দ্বাৰা ৰচিত প্ৰথমখন উপন্যাস।
+              ২০১৫ চনৰ নৱেম্বৰ মাহত বান্ধৱ প্ৰকাশনে এই উপন্যাসখন প্ৰকাশ কৰে।
+              উপন্যাসখন ধাৰাবাহিকভাৱে প্ৰথমে কিশোৰ-কিশোৰীৰ বাবে উপযোগী মাহেকীয়া
+              আলোচনী বাৰ ওঠৰত প্ৰকাশ পায়। উপন্যাসখন ৯২.৭ বিগ এফ এমৰ আজিৰ পৃষ্ঠা
+              নামৰ অনুষ্ঠানটিৰ যোগেদি আৰু আকাশবাণী গুৱাহাটী কেন্দ্ৰৰ যোগেদিও
+              প্ৰচাৰ কৰা হৈছে। ২০২১ চনৰ ডিচেম্বৰ মাহৰ ৩০ তাৰিখে এই গ্ৰন্থখনৰ
+              বাবে মৃণাল কলিতাই সাহিত্য অকাডেমিৰ ‘শিশু সাহিত্য বঁটা’ লাভ কৰে।
             </small>
             <br />
-            <a href="https://www.storytel.com/in/en/books/arnab-aastha-aru-jec-1104462">
-              Listen AudioBook Storytell
+            <small>
+              বকুল ফুলৰ দৰে উপন্যাসখনৰ ৰচক মৃণাল কলিতা অসমৰ এগৰাকী
+              শিশু-সাহিত্যিক, গল্পকাৰ, ঔপন্যাসিক আৰু নিৱন্ধকাৰ। তেওঁ গুৱাহাটীৰ
+              পাণ্ডু মহাবিদ্যালয়ৰ গণিত বিভাগৰ অধ্যাপক।
+            </small>
+            <br />
+            <a href="https://www.google.com/search?q=synopsis+of+%E0%A6%AC%E0%A6%95%E0%A7%81%E0%A6%B2+%E0%A6%AB%E0%A7%81%E0%A6%B2%E0%A7%B0+%E0%A6%A6%E0%A7%B0%E0%A7%87&rlz=1C1ONGR_enIN1016IN1016&sxsrf=AJOqlzU3qBbLJmdhFxVUB5D77TLMavORqQ%3A1673375656889&ei=qK-9Y9P7NaOHjuMPqLu2mAs&ved=0ahUKEwjT7-qM0r38AhWjg2MGHaidDbMQ4dUDCA8&uact=5&oq=synopsis+of+%E0%A6%AC%E0%A6%95%E0%A7%81%E0%A6%B2+%E0%A6%AB%E0%A7%81%E0%A6%B2%E0%A7%B0+%E0%A6%A6%E0%A7%B0%E0%A7%87&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyBQghEKABMgUIIRCgATIFCCEQoAEyCAghEBYQHhAdMggIIRAWEB4QHTIICCEQFhAeEB0yCAghEBYQHhAdMggIIRAWEB4QHTIICCEQFhAeEB06CggAEEcQ1gQQsAM6BwguELADEEM6BwgAELADEEM6BAgjECc6BAgAEEM6BQgAEIAESgQIQRgASgQIRhgAUPQDWPAGYLcJaAFwAXgAgAG8AogBqwSSAQUyLTEuMZgBAKABAaABAsgBCsABAQ&sclient=gws-wiz-serp">
+              Read Summary
             </a>
           </div>
         </div>

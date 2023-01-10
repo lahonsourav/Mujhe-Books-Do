@@ -1,13 +1,13 @@
 import React from "react";
 import "./allLanding.css";
-import JEC from "../../BookImages/jec.webp";
+import AXIMOT from "../../BookImages/aximot.jpg";
 
 const One = () => {
   return (
     <div className="landing">
       <div className="landing__container">
         <div className="landing__left">
-          <img src={JEC} alt="" />
+          <img src={AXIMOT} alt="" />
 
           <a href="" className="addButton">
             Download PDF
@@ -16,37 +16,41 @@ const One = () => {
 
         <div className="landing__right">
           <div className="landing__product__info">
-            <p> Arnav Astha aru JEC</p>
-            <p className="landing__author__name"> Indranee Sharma</p>
+            <p> অসীমত যাৰ হেৰাল সীমা</p>
+            <p className="landing__author__name"> কাঞ্চন বৰুৱা</p>
             <p className="landing__product__price">
               <small>₹</small>
-              <strong>200</strong>
+              <strong>300</strong>
             </p>
           </div>
           <div className="landing__details">
             <small>
-              ''ভিজা চুলিত মোৰ উশাহ সামৰি আৰু ওচৰলৈ নাহিবা মিছ্ আস্থা... আকৌ
-              এবাৰ ৰঙা কৰি দিম তোমাৰ টোল পৰা দুগালৰ ৰং.. চুই চাম তোমাৰ 'পোৱালি'
-              'পোৱালি' আঙুলিৰ ভাঁজ... এই যে তোমাক সামৰি লম বুকুৰ মাজত, কোনেও
-              আঁতৰাই নিব নোৱাৰে আনকি তুমি নিজেও..'' প্ৰথম প্ৰেমৰ মিঠা মিঠা ৰাগীত
-              মাতাল দুটি আলসুৱা মন। এই প্ৰেম সাধাৰণ, সহজ, সৰল আৰু আপোন। শেৱালি
-              ফুলৰ সুগন্ধি লাগিছে আস্থাৰ গালত, অৰ্ণৱৰ হাতত, জেইচিৰ বতাহত। কঁপি
-              থকা বুকুৰ ধপধপনি দুয়োৰে বাবেই নতুন, প্ৰথম, ভাললগা। ভালপোৱাৰ এজাক
-              বৰষুণৰ নাম "অৰ্ণৱ আস্থা আৰু JEC"। ফেচবুক পেজ 'অৰ্ধ আকাশ'ত
-              আত্মপ্ৰকাশ কৰি চছিয়েল মিডিয়াত তোলপাৰ লগোৱা আৰু পিছলৈ কিতাপ আকাৰে
-              ছপা হোৱা জনপ্ৰিয় উপন্যাস 'অৰ্ণব, আস্থা আৰু JEC' এইবাৰ আপোনালোকৰ
-              কাষলৈ আহিছে শ্ৰাব্য ৰূপত। কলেজীয়া জীৱনৰ বন্ধুত্ব আৰু প্ৰেমৰ
-              মাদকতাই সুকীয়া। তাতে যেতিয়া বিপৰীত স্বভাৱৰ দুজন মানুহ প্ৰেমত পৰে,
-              সময় হৈ পৰে অভিমান আৰু আদৰৰ এক অদ্ভুত মিশ্ৰণ। অৰ্ণব আৰু আস্থাৰ
-              কাহিনীটোও কিছু তেনেকুৱাই। শান্ত, অন্তৰ্মুখী আস্থাই সামৰি লব পাৰিব
-              নে অৰ্ণবৰ উগ্ৰ, বেপৰুৱা প্ৰেমক? অৰ্ণবৰ জীৱনৰ এটা গোপন সত্য আছে।
-              আস্থাই পাৰিব নে অৰ্ণবক সেই সত্যৰ সৈতে মুখামুখি কৰাই দিব? সহজ সৰল
-              প্ৰেমৰ ধুনীয়া কাহিনী 'অৰ্ণব, আস্থা আৰু JEC' ইন্দ্ৰাণী শৰ্মাৰ প্ৰথম
-              উপন্যাস।
+              The novel starts with the narrator, a clerk dreaming of a perfect
+              married life with kids, who suddenly gets sucked into a black
+              hole. He wakes up startled to realize that he is supposed to go on
+              an expedition that very day with his four friends - a professor, a
+              doctor, a poet, and a clerk, much like the narrator himself. The
+              five friends want to leave the humdrum of their routine life for a
+              month and embark on a boat journey along the river Dihing in the
+              hopes of coming across an unexplored land. After moving upstream
+              on their boat for 15 days they unexpectedly come across a tribe of
+              aboriginals in the dense jungles. After feasting and spending the
+              night with the tribe, the next morning they face the revolt of
+              their boatman and navigators who believe any journey further
+              upstream will bring doom upon them all as the place is cursed. But
+              the stubborn friends decide to continue the journey on their own.
+              As they travel further, they are astounded by the breathtaking
+              scenery at first, but as the night falls they are stuck in a
+              violent rainstorm that takes them off course. Once the storm
+              subsides they realize that their Professor friend is disoriented
+              and sick and seems to be zoning in and out of his memories of his
+              homeland from his previous birth, 1300 years ago. This is where
+              the main story starts. It is a story of love, life, friendship,
+              patriotism, and valor.
             </small>
             <br />
-            <a href="https://www.storytel.com/in/en/books/arnab-aastha-aru-jec-1104462">
-              Listen AudioBook Storytell
+            <a href="https://www.axomiyakobita.in/2021/08/asimat-jar-heral-seema-assamese-novel.html">
+              Read Summary
             </a>
           </div>
         </div>

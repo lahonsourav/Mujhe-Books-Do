@@ -1,13 +1,13 @@
 import React from "react";
 import "./allLanding.css";
-import JEC from "../../BookImages/jec.webp";
+import OIG from "../../BookImages/oig.jpg";
 
 const One = () => {
   return (
     <div className="landing">
       <div className="landing__container">
         <div className="landing__left">
-          <img src={JEC} alt="" />
+          <img src={OIG} alt="" />
 
           <a href="" className="addButton">
             Download PDF
@@ -16,37 +16,44 @@ const One = () => {
 
         <div className="landing__right">
           <div className="landing__product__info">
-            <p> Arnav Astha aru JEC</p>
-            <p className="landing__author__name"> Indranee Sharma</p>
+            <p> One Indian Girl</p>
+            <p className="landing__author__name"> Chetan Bhagat</p>
             <p className="landing__product__price">
               <small>₹</small>
-              <strong>200</strong>
+              <strong>130</strong>
             </p>
           </div>
           <div className="landing__details">
             <small>
-              ''ভিজা চুলিত মোৰ উশাহ সামৰি আৰু ওচৰলৈ নাহিবা মিছ্ আস্থা... আকৌ
-              এবাৰ ৰঙা কৰি দিম তোমাৰ টোল পৰা দুগালৰ ৰং.. চুই চাম তোমাৰ 'পোৱালি'
-              'পোৱালি' আঙুলিৰ ভাঁজ... এই যে তোমাক সামৰি লম বুকুৰ মাজত, কোনেও
-              আঁতৰাই নিব নোৱাৰে আনকি তুমি নিজেও..'' প্ৰথম প্ৰেমৰ মিঠা মিঠা ৰাগীত
-              মাতাল দুটি আলসুৱা মন। এই প্ৰেম সাধাৰণ, সহজ, সৰল আৰু আপোন। শেৱালি
-              ফুলৰ সুগন্ধি লাগিছে আস্থাৰ গালত, অৰ্ণৱৰ হাতত, জেইচিৰ বতাহত। কঁপি
-              থকা বুকুৰ ধপধপনি দুয়োৰে বাবেই নতুন, প্ৰথম, ভাললগা। ভালপোৱাৰ এজাক
-              বৰষুণৰ নাম "অৰ্ণৱ আস্থা আৰু JEC"। ফেচবুক পেজ 'অৰ্ধ আকাশ'ত
-              আত্মপ্ৰকাশ কৰি চছিয়েল মিডিয়াত তোলপাৰ লগোৱা আৰু পিছলৈ কিতাপ আকাৰে
-              ছপা হোৱা জনপ্ৰিয় উপন্যাস 'অৰ্ণব, আস্থা আৰু JEC' এইবাৰ আপোনালোকৰ
-              কাষলৈ আহিছে শ্ৰাব্য ৰূপত। কলেজীয়া জীৱনৰ বন্ধুত্ব আৰু প্ৰেমৰ
-              মাদকতাই সুকীয়া। তাতে যেতিয়া বিপৰীত স্বভাৱৰ দুজন মানুহ প্ৰেমত পৰে,
-              সময় হৈ পৰে অভিমান আৰু আদৰৰ এক অদ্ভুত মিশ্ৰণ। অৰ্ণব আৰু আস্থাৰ
-              কাহিনীটোও কিছু তেনেকুৱাই। শান্ত, অন্তৰ্মুখী আস্থাই সামৰি লব পাৰিব
-              নে অৰ্ণবৰ উগ্ৰ, বেপৰুৱা প্ৰেমক? অৰ্ণবৰ জীৱনৰ এটা গোপন সত্য আছে।
-              আস্থাই পাৰিব নে অৰ্ণবক সেই সত্যৰ সৈতে মুখামুখি কৰাই দিব? সহজ সৰল
-              প্ৰেমৰ ধুনীয়া কাহিনী 'অৰ্ণব, আস্থা আৰু JEC' ইন্দ্ৰাণী শৰ্মাৰ প্ৰথম
-              উপন্যাস।
+              Moving to the book then, One Indian Girl is a story of a girl
+              called Radhika Mehta who is a hot-shot banker working in the
+              prestigious Investment Bank, Goldman Sachs. Radhika, who once was
+              as nerdy as one can be, is now arranged to get married to Brijesh
+              Gulati and has just arrived for her destination wedding in Goa.
             </small>
             <br />
-            <a href="https://www.storytel.com/in/en/books/arnab-aastha-aru-jec-1104462">
-              Listen AudioBook Storytell
+            <small>
+              This paper attempts a feminist reading of Chetan Bhagat’s latest
+              novel – “One Indian Girl”. The novel revolves around a female
+              protagonist, Radhika Mehta, an IIMA product with a job at Goldman
+              Sachs’ New York branch first, next at Hong Kong and last at U.K.
+              Always branded a nerd, she begins to explore her sexuality once
+              she lands in alien territory in a vain search for positive
+              external valuation. She finally succumbs to parental pressure for
+              undergoing an arranged marriage. However, just before the wedding,
+              she realises that she must live life on her own terms and refuses
+              to marry. She takes time off to understand her true self more
+              deeply and at the end of the novel realises that the ideal husband
+              for her is one who will accommodate a woman’s conflicting demands
+              for the freedom to soar high in her career while being a
+              supportive wife and doting mother at home. While the narration
+              traces a woman’s journey towards confidence and self-respect, it
+              also exposes the hypocrisy of the Indian male and the sexist
+              attitudes ingrained into cultures.
+            </small>
+            <br />
+            <a href="https://www.ipl.org/essay/One-Indian-Girl-Summary-PJC7VN5SQU">
+              Read Summary
             </a>
           </div>
         </div>

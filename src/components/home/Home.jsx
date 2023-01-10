@@ -62,7 +62,7 @@ const Home = () => {
         </Swiper>
 
         <div className="home__aboutStar">
-          <small>Click on Cart icon on top right to proceed</small>
+          <small>Please Click on Sign in to Login</small>
         </div>
 
         <div className="category">
@@ -92,7 +92,7 @@ const Home = () => {
                   image={SECRET}
                   rating={4}
                 />
-                <Link to="/error" className="showMore">
+                <Link to="/two" className="showMore">
                   View more
                 </Link>
               </div>
@@ -106,7 +106,7 @@ const Home = () => {
                   image={IGNITED}
                   rating={5}
                 />
-                <Link to="/error" className="showMore">
+                <Link to="/three" className="showMore">
                   View more
                 </Link>
               </div>
@@ -120,7 +120,7 @@ const Home = () => {
                   image={SEVEN}
                   rating={4}
                 />
-                <Link to="/error" className="showMore">
+                <Link to="/four" className="showMore">
                   View more
                 </Link>
               </div>
@@ -136,7 +136,7 @@ const Home = () => {
                   image={PRIDE}
                   rating={4}
                 />
-                <Link to="/error" className="showMore">
+                <Link to="/five" className="showMore">
                   View more
                 </Link>
               </div>
@@ -150,7 +150,7 @@ const Home = () => {
                   image={BOKUL}
                   rating={4}
                 />
-                <Link to="/error" className="showMore">
+                <Link to="/six" className="showMore">
                   View more
                 </Link>
               </div>
@@ -164,7 +164,7 @@ const Home = () => {
                   image={WINGS}
                   rating={5}
                 />
-                <Link to="/error" className="showMore">
+                <Link to="/seven" className="showMore">
                   View more
                 </Link>
               </div>
@@ -178,7 +178,7 @@ const Home = () => {
                   image={OIG}
                   rating={4}
                 />
-                <Link to="/error" className="showMore">
+                <Link to="/eight" className="showMore">
                   View more
                 </Link>
               </div>
@@ -194,7 +194,7 @@ const Home = () => {
                   image={AXIMOT}
                   rating={5}
                 />
-                <Link to="/error" className="showMore">
+                <Link to="/nine" className="showMore">
                   View more
                 </Link>
               </div>
@@ -208,7 +208,7 @@ const Home = () => {
                   image={NEH}
                   rating={1}
                 />
-                <Link to="/error" className="showMore">
+                <Link to="/ten" className="showMore">
                   View more
                 </Link>
               </div>
@@ -222,7 +222,7 @@ const Home = () => {
                   image={LORD}
                   rating={4}
                 />
-                <Link to="/error" className="showMore">
+                <Link to="/oone" className="showMore">
                   View more
                 </Link>
               </div>
@@ -236,7 +236,7 @@ const Home = () => {
                   image={TIGER}
                   rating={3}
                 />
-                <Link to="/error" className="showMore">
+                <Link to="/otwo" className="showMore">
                   View more
                 </Link>
               </div>
@@ -252,7 +252,7 @@ const Home = () => {
                   rating={4}
                 />
 
-                <Link to="/error" className="showMore">
+                <Link to="/othree" className="showMore">
                   View more
                 </Link>
               </div>
@@ -267,7 +267,7 @@ const Home = () => {
                   rating={4}
                 />
 
-                <Link to="/error" className="showMore">
+                <Link to="/ofour" className="showMore">
                   View more
                 </Link>
               </div>
@@ -282,7 +282,7 @@ const Home = () => {
                   rating={4}
                 />
 
-                <Link to="/error" className="showMore">
+                <Link to="/ofive" className="showMore">
                   View more
                 </Link>
               </div>
@@ -314,7 +314,7 @@ const Home = () => {
                   rating={4}
                 />
 
-                <Link to="/error" className="showMore">
+                <Link to="/oseven" className="showMore">
                   View more
                 </Link>
               </div>
@@ -328,7 +328,7 @@ const Home = () => {
                   image={CHEMONE}
                   rating={2}
                 />
-                <Link to="/error" className="showMore">
+                <Link to="/oeight" className="showMore">
                   View more
                 </Link>
               </div>
@@ -343,7 +343,7 @@ const Home = () => {
                   rating={3}
                 />
 
-                <Link to="/error" className="showMore">
+                <Link to="/onine" className="showMore">
                   View more
                 </Link>
               </div>
@@ -357,7 +357,7 @@ const Home = () => {
                   image={CHEMTWO}
                   rating={2}
                 />
-                <Link to="/error" className="showMore">
+                <Link to="/oten" className="showMore">
                   View more
                 </Link>
               </div>
@@ -373,14 +373,14 @@ const Home = () => {
                   rating={3}
                 />
 
-                <Link to="/error" className="showMore">
+                <Link to="/tonw" className="showMore">
                   View more
                 </Link>
               </div>
 
               <div className="toLanding">
                 <Product
-                  id="ttwo"
+                  id="22"
                   title="Engineering Physics"
                   author="HK Malik"
                   price={799}
@@ -388,7 +388,7 @@ const Home = () => {
                   rating={3}
                 />
 
-                <Link to="/error" className="showMore">
+                <Link to="/ttwo" className="showMore">
                   View more
                 </Link>
               </div>
@@ -402,7 +402,7 @@ const Home = () => {
                   image={INTRO}
                   rating={4}
                 />
-                <Link to="/error" className="showMore">
+                <Link to="/tthree" className="showMore">
                   View more
                 </Link>
               </div>
@@ -417,7 +417,7 @@ const Home = () => {
                   rating={3}
                 />
 
-                <Link to="/error" className="showMore">
+                <Link to="/tfour" className="showMore">
                   View more
                 </Link>
               </div>
