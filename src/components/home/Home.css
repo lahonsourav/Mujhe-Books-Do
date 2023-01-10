@@ -40,7 +40,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  background: var(--color-primary-variant);
+  margin-right: -10px;
   background: linear-gradient(var(--color-primary-variant), white);
 }
 
@@ -48,8 +48,6 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  margin-left: 5px;
-  margin-right: 25px;
 }
 
 .home__image {
@@ -84,8 +82,6 @@
 
 .swiper-slide {
   background: #fff;
-
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -103,12 +99,10 @@
 .toLanding {
   display: flex;
   flex-direction: column;
-
   background-color: var(--color-white);
 
   align-items: center;
   justify-content: flex-end;
-  min-width: 100px;
   border-radius: 10px;
   transition: var(--transition);
   color: var(--color-bg);
@@ -132,9 +126,8 @@
 @media (max-width: 560px) {
   .home__row {
     grid-template-columns: repeat(2, 1fr);
-    gap: 6px;
-    margin-left: 2px;
-    margin-right: 12px;
+    gap: 3px;
+    
   }
 
   .home__aboutStar {

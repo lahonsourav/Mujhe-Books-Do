@@ -137,6 +137,10 @@
     margin-top: -6px;
   }
 
+  .product__price {
+    margin-top: 0;
+  }
+
   .addTocartButton {
     border-radius: 3px;
     background: var(--color-primary-variant);
@@ -153,7 +157,7 @@
 
   .product__rating {
     transform: scale(0.5);
-    margin-top: -5px;
+    margin-top: -2px;
   }
 
   .product > button {
@@ -167,6 +171,7 @@
     max-width: 100px;
     width: 100%;
     object-fit: contain;
+    margin-top: 0;
 
   }
 
@@ -176,7 +181,6 @@
 
   .product__rating {
     margin-bottom: -10px;
-    margin-top: 1px;
   }
 
   .product__info .author__name {

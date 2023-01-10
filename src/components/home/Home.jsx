@@ -78,7 +78,9 @@ const Home = () => {
                   image={JEC}
                   rating={5}
                 />
-                <Link to='/one' className="showMore">View More</Link>
+                <Link to="/one" className="showMore">
+                  View More
+                </Link>
               </div>
 
               <div className="toLanding">
@@ -90,7 +92,7 @@ const Home = () => {
                   image={SECRET}
                   rating={4}
                 />
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -104,7 +106,7 @@ const Home = () => {
                   image={IGNITED}
                   rating={5}
                 />
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -116,9 +118,9 @@ const Home = () => {
                   author="Marlon James"
                   price={499}
                   image={SEVEN}
-                  rating={3}
+                  rating={4}
                 />
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -132,9 +134,9 @@ const Home = () => {
                   author="Jane Austen"
                   price={99}
                   image={PRIDE}
-                  rating={5}
+                  rating={4}
                 />
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -146,9 +148,9 @@ const Home = () => {
                   author="ড° মৃণাল কলিতা "
                   price={200}
                   image={BOKUL}
-                  rating={2}
+                  rating={4}
                 />
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -160,9 +162,9 @@ const Home = () => {
                   author="APJ Abdul Kalam"
                   price={150}
                   image={WINGS}
-                  rating={4}
+                  rating={5}
                 />
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -176,7 +178,7 @@ const Home = () => {
                   image={OIG}
                   rating={4}
                 />
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -192,7 +194,7 @@ const Home = () => {
                   image={AXIMOT}
                   rating={5}
                 />
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -206,7 +208,7 @@ const Home = () => {
                   image={NEH}
                   rating={1}
                 />
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -218,9 +220,9 @@ const Home = () => {
                   author="J.R.R. Tolkien"
                   price={649}
                   image={LORD}
-                  rating={3}
+                  rating={4}
                 />
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -234,7 +236,7 @@ const Home = () => {
                   image={TIGER}
                   rating={3}
                 />
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -250,7 +252,7 @@ const Home = () => {
                   rating={4}
                 />
 
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -265,7 +267,7 @@ const Home = () => {
                   rating={4}
                 />
 
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -280,7 +282,7 @@ const Home = () => {
                   rating={4}
                 />
 
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -290,9 +292,7 @@ const Home = () => {
                   id="16"
                   title="More Books"
                   author="Coming soon"
-                  price={0}
                   image={COMING}
-                  rating={4}
                 />
                 <Link to="/sell" className="showMore">
                   Donate Books
@@ -314,7 +314,7 @@ const Home = () => {
                   rating={4}
                 />
 
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -326,9 +326,9 @@ const Home = () => {
                   author="Arihant"
                   price={188}
                   image={CHEMONE}
-                  rating={5}
+                  rating={2}
                 />
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -343,7 +343,7 @@ const Home = () => {
                   rating={3}
                 />
 
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -355,9 +355,9 @@ const Home = () => {
                   author="Disha Publications"
                   price={140}
                   image={CHEMTWO}
-                  rating={5}
+                  rating={2}
                 />
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -370,10 +370,10 @@ const Home = () => {
                   author="Wiley Editorial"
                   price={690}
                   image={CHEMTHREE}
-                  rating={5}
+                  rating={3}
                 />
 
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -388,7 +388,7 @@ const Home = () => {
                   rating={3}
                 />
 
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -400,9 +400,9 @@ const Home = () => {
                   author="Thomas Cormen "
                   price={1499}
                   image={INTRO}
-                  rating={5}
+                  rating={4}
                 />
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
@@ -414,10 +414,10 @@ const Home = () => {
                   author="Arihant"
                   price={210}
                   image={ARONE}
-                  rating={4}
+                  rating={3}
                 />
 
-                <Link to="/one" className="showMore">
+                <Link to="/error" className="showMore">
                   View more
                 </Link>
               </div>
