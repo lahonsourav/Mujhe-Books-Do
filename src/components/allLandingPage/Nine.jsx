@@ -1,23 +1,17 @@
 import React from "react";
 import "./allLanding.css";
 import JEC from "../../BookImages/jec.webp";
-import { Link, useNavigate } from "react-router-dom";
 
 const One = () => {
-  const navigate = useNavigate();
-  const goBack = () => {
-    navigate("/", { replace: false });
-  };
-
   return (
     <div className="landing">
       <div className="landing__container">
         <div className="landing__left">
           <img src={JEC} alt="" />
 
-          <button className="addButton" onClick={goBack}>
-            Go Back to Add to Cart
-          </button>
+          <a href="" className="addButton">
+            Download PDF
+          </a>
         </div>
 
         <div className="landing__right">
