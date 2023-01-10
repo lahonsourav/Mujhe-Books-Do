@@ -11,8 +11,6 @@ const Error = () => {
   const navigate = useNavigate();
   const [user, loading] = useAuthState(auth);
 
-
-
   return (
     <div className="dashboard">
       <div className="user__details">
@@ -25,9 +23,9 @@ const Error = () => {
         <small>I am working on the database of the website</small>
       </div>
 
-      <div to="/dashboard" className="logout__button">
+      <Link to="/dashboard" className="logout__button">
         Go Back
-      </div>
+      </Link>
     </div>
   );
 };
