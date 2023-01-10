@@ -10,6 +10,14 @@ const Order = () => {
   const navigate = useNavigate();
   const [{ basket, user }, dispatch] = useStateValue();
 
+  const goBack = async (event) => {
+    event.preventDefault();
+    navigate("/", { replace: true });
+
+    dispatch({
+      type: "EMPTY_BASKET",
+    });
+  };
   return (
     <div className="orders">
       <div className="image__container">
@@ -19,9 +27,10 @@ const Order = () => {
       <h4>
         <CurrencyFormat
           renderText={(value) => (
-            <p>
-              Your Order ID is "M<strong>{value}</strong>
+            <p className="order__id">
+              Your Order ID is "M{value}
               {user?.displayName[4]}BD"
+              {/* {user?.uid} */}
             </p>
           )}
           decimalState={2}
@@ -30,14 +39,13 @@ const Order = () => {
           thousandSeperator={true}
         />
       </h4>
-      <p>
-        You've succesfully purchased {basket?.length} items from "Mujhe Books
-        Do"
+      <p className="order__text">
+        You've succesfully purchased {basket?.length} books
       </p>
       <div className="payment__priceContainer">
         <CurrencyFormat
           renderText={(value) => (
-            <p>
+            <p className="order__text">
               worth <strong> {value}</strong> only
             </p>
           )}
@@ -48,10 +56,10 @@ const Order = () => {
           prefix={"₹"}
         />
       </div>
-      <p>The invoice will be sent to {user?.email}</p>
-      <Link to="/" className="continue">
+      <p className="order__text">The invoice will be sent to {user?.email}</p>
+      <button onClick={goBack} className="continue">
         <p>Continue Searching Books</p>
-      </Link>
+      </button>
     </div>
   );
 };

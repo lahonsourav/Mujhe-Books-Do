@@ -133,7 +133,8 @@
   }
 
   .product__info {
-    height: 56px;
+    
+    min-height: 56px;
     margin-top: -6px;
   }
 
@@ -190,7 +191,13 @@
     color: var(--color-bg);
     font-size: 0.7rem;
     font-weight: 100;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-name: slidein;
+  }
+
+  .flash-message > p {
+    animation-duration: 2s;
+    animation-name: slidein;
+    font-weight: 300;
   }
 }

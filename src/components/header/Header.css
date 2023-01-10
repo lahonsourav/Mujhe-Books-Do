@@ -130,8 +130,14 @@
 }
 
 @media (max-width: 560px) {
+
+  .header {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
   .header__option {
     display: none;
+    
   }
 
   .header__logo {
@@ -140,6 +146,8 @@
     margin-top: 6px;
     transition: var(--transition);
   }
+
+
 
   .header__searchIcon {
     margin-left: 7px;

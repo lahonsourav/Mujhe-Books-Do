@@ -25,6 +25,10 @@ import ENGPHY from "../../BookImages/ENGPHY.webp";
 import CHEMONE from "../../BookImages/chemone.webp";
 import CHEMTWO from "../../BookImages/chemtwo.jpg";
 import CHEMTHREE from "../../BookImages/chemthree.jpg";
+import NEH from "../../BookImages/neh.jpg";
+import GREAT from "../../BookImages/great.jpg";
+import ANGEL from "../../BookImages/angel.webp";
+import INTRO from "../../BookImages/intro.jpg";
 
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -58,7 +62,7 @@ const Home = () => {
         </Swiper>
 
         <div className="home__aboutStar">
-          <small>A boy who never read any book built this website</small>
+          <small>Click on Cart icon on top right to proceed</small>
         </div>
 
         <div className="category">
@@ -91,7 +95,7 @@ const Home = () => {
               />
               <Product
                 id="4"
-                title="A brief history of 7 killings"
+                title="History of 7 killings"
                 author="Marlon James"
                 price={499}
                 image={SEVEN}
@@ -141,6 +145,15 @@ const Home = () => {
                 image={AXIMOT}
                 rating={3}
               />
+
+              <Product
+                id="12"
+                title="অসীমত যাৰ সীমা নেহেৰায়"
+                author="প্ৰণৱ কুমাৰ শৰ্মা"
+                price={1}
+                image={NEH}
+                rating={4}
+              />
               <Product
                 id="10"
                 title="Lord of the Rings"
@@ -163,6 +176,30 @@ const Home = () => {
                 author="Khushwant Singh"
                 price={120}
                 image={TRAIN}
+                rating={4}
+              />
+              <Product
+                id="12"
+                title="A Great Man"
+                author="Kate Christensen"
+                price={3242}
+                image={GREAT}
+                rating={4}
+              />
+              <Product
+                id="12"
+                title="Angels and Demons"
+                author="Dan Brown"
+                price={499}
+                image={ANGEL}
+                rating={4}
+              />
+              <Product
+                id="20"
+                title="More Books"
+                author="Coming soon"
+                price={0}
+                image={COMING}
                 rating={4}
               />
             </div>
@@ -197,7 +234,7 @@ const Home = () => {
               />
               <Product
                 id="16"
-                title="General Organic Chemistry"
+                title="Organic Chemistry"
                 author="Disha Publications"
                 price={140}
                 image={CHEMTWO}
@@ -207,7 +244,7 @@ const Home = () => {
             <div className="home__row">
               <Product
                 id="17"
-                title="Chemistry Problem Book"
+                title="Chemistry Problem"
                 author="Wiley Editorial"
                 price={690}
                 image={CHEMTHREE}
@@ -224,10 +261,10 @@ const Home = () => {
               />
               <Product
                 id="19"
-                title="More Books"
-                author="Coming soon"
-                price={999}
-                image={COMING}
+                title="Intro to Algorithms"
+                author="Thomas Cormen "
+                price={1499}
+                image={INTRO}
                 rating={5}
               />
               <Product

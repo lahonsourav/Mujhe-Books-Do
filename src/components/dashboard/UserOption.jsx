@@ -13,19 +13,19 @@ const UserOption = () => {
     <>
       <div className="user__option">
         <img src={ORDERS} alt="" />
-        <Link to="/orders" className="user__option__info">
+        <Link to="/error" className="user__option__info">
           <p> Your Orders</p>
           <p className="user__desc__name"> Track, return or buy things again</p>
         </Link>
       </div>
-      <Link to="/security" className="user__option">
+      <Link to="/error" className="user__option">
         <img src={LOCK} alt="" />
         <div className="user__option__info">
           <p> Account and Security</p>
           <p className="user__desc__name"> Edit login details</p>
         </div>
       </Link>
-      <Link to="/paymentoption" className="user__option">
+      <Link to="/error" className="user__option">
         <img src={PAY} alt="" />
         <div className="user__option__info">
           <p> Payment Options</p>

@@ -25,7 +25,7 @@ function Product({ id, title, author, image, price, rating }) {
   };
 
   const handleClick = () => {
-    setMessage("Item added to Cart");
+    setMessage("Book added to Cart");
     setShowMessage(true);
     addToBasket();
   };

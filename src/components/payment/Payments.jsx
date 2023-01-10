@@ -78,6 +78,22 @@ const Payment = () => {
   // };
   // payment end
 
+  const payDel = async (event) => {
+    event.preventDefault();
+
+  
+
+
+        
+
+        dispatch({
+          type: "EMPTY_BASKET",
+        });
+
+        navigate("/orders", { replace: true });
+    
+  };
+
   return (
     <div className="payment">
       <div className="payment__container">
@@ -91,7 +107,7 @@ const Payment = () => {
             <h3>Delivery Address</h3>
           </div>
           <div className="payment__address">
-            <p>{user?.email}</p>
+            <p>{user?.displayName}</p>
             <p>This is a beta version of this website</p>
             <p>We are not actually delivering products for the time being</p>
             <p>
@@ -131,6 +147,7 @@ const Payment = () => {
             <h3>Payment Methods</h3>
           </div>
           <div className="payment__details">
+            <div className="payment__details__blank"></div>
             {/* stripe work */}
 
             <form>
@@ -161,9 +178,9 @@ const Payment = () => {
             </form>
 
             <PaymentOption />
-            <div className="payment__option__button">
+            {/* <div className="payment__option__button">
               <button>Proceed and Order</button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

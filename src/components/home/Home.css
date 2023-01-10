@@ -121,6 +121,6 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 6px;
     margin-left: 2px;
-    margin-right: 20px;
+    margin-right: 12px;
   }
 }

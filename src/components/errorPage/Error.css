@@ -35,12 +35,14 @@
   color: var(--color-bg_variant);
 }
 
+.error__message > p {
+  text-align: center;
+}
+
 @media (max-width: 560px) {
   .dashboard {
     max-width: 100vw;
     overflow-x: hidden;
     margin-right: 10px;
   }
-
-
 }

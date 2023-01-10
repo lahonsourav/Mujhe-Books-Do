@@ -15,11 +15,41 @@
 .orders > h3 {
   font-weight: 500;
   font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 .continue {
+  margin-top: 20px;
+  padding: 4px;
+  border-radius: 2px;
+  background-color: var(--color-primary);
+}
+
+@media (max-width: 560px) {
+
+  .orders {
+    margin-top: 25%;
+  }
+  .image__container > img {
     margin-top: 20px;
-    padding: 4px;
-    border-radius: 2px;
-    background-color: var(--color-primary);
+    max-width: 90vw;
+    margin-bottom: 20px;
+  }
+
+  .orders > h3 {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .order__id {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .order__text {
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
 }

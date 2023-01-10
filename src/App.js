@@ -17,6 +17,7 @@ import Order from "./components/order/Order";
 
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
+import Error from "./components/errorPage/Error";
 
 const promise = loadStripe(
   "pk_test_51MOEHvSAmgVrd7Auw275yln50qYzQZjPBxQsRFJU5ys7GgGl1lav1Wx7Am1UDhyri4ZRjg7RwtVxtM4b5ZMk3nkk00MczFsiwI"
@@ -87,6 +88,14 @@ function App() {
           ></Route>
 
           <Route
+            path="/error"
+            element={
+              <>
+                <Error />
+              </>
+            }
+          ></Route>
+          <Route
             path="/sell"
             element={
               <>
@@ -101,7 +110,6 @@ function App() {
             path="/dashboard"
             element={
               <>
-                <NavMobile />
                 <Header />
                 <Dashboard />
               </>
