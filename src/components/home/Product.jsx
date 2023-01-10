@@ -23,18 +23,16 @@ function Product({ id, title, author, image, price, rating }) {
       },
     });
   };
+  const stayHere = () => {
+    navigate("/", { replace: false });
+  };
 
   const handleClick = () => {
     setMessage("Book added to Cart");
     setShowMessage(true);
     addToBasket();
+    stayHere();
   };
-
-  const toLanding = () => {
-    navigate("/landing", { replace: false });
-  };
-
-
 
   if (!showMessage) {
     return (
@@ -55,10 +53,17 @@ function Product({ id, title, author, image, price, rating }) {
             ))}
         </div> */}
         </div>
-
-        <img  src={image} alt="" />
-
-        <button onClick={handleClick}>Add to Cart</button>
+        <img src={image} alt="" />
+        <div className="product__rating">
+          {Array(rating)
+            .fill()
+            .map((_, i) => (
+              <p>⭐</p>
+            ))}
+        </div>
+        <button className="addTocartButton" onClick={handleClick}>
+          Add to Cart
+        </button>
       </div>
     );
   }
@@ -86,18 +91,18 @@ function Product({ id, title, author, image, price, rating }) {
           <small>₹</small>
           <strong>{price}</strong>
         </p>
-
-        {/* <div className="product__rating">
-          {Array(rating)
-            .fill()
-            .map((_, i) => (
-              <p>⭐</p>
-            ))}
-        </div> */}
       </div>
       <img src={image} alt="" />
 
-      <button>Add to Cart</button>
+      <div className="product__rating">
+        {Array(rating)
+          .fill()
+          .map((_, i) => (
+            <p>⭐</p>
+          ))}
+      </div>
+
+      <button className="addTocartButton">Add to Cart</button>
     </div>
   );
 }

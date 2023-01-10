@@ -69,212 +69,358 @@ const Home = () => {
           <div className="wrapper">
             <small className="category__name">User's Favorite</small>
             <div className="home__row">
-              <Product
-                id="1"
-                title="Arnav Astha aru JEC"
-                price={220}
-                author="Indrani Sharma"
-                image={JEC}
-                rating={5}
-              />
-              <Product
-                id="2"
-                title="The Secret"
-                author="Rhonda Byrne"
-                price={799}
-                image={SECRET}
-                rating={4}
-              />
-              <Product
-                id="3"
-                title="Ignited minds"
-                author="APJ Abdul Kalam"
-                price={189}
-                image={IGNITED}
-                rating={5}
-              />
-              <Product
-                id="4"
-                title="History of 7 killings"
-                author="Marlon James"
-                price={499}
-                image={SEVEN}
-                rating={3}
-              />
-            </div>
-            <div className="home__row">
-              <Product
-                id="5"
-                title="Pride and Prejudice"
-                author="Jane Austen"
-                price={99}
-                image={PRIDE}
-                rating={5}
-              />
-              <Product
-                id="6"
-                title="বকুল ফুলৰ দৰে "
-                author="ড° মৃণাল কলিতা "
-                price={200}
-                image={BOKUL}
-                rating={2}
-              />
-              <Product
-                id="7"
-                title="Wings of fire"
-                author="APJ Abdul Kalam"
-                price={150}
-                image={WINGS}
-                rating={4}
-              />
-              <Product
-                id="8"
-                title="One Indian Girl"
-                author="Chetan Bhagat"
-                price={130}
-                image={OIG}
-                rating={4}
-              />
-            </div>
-            <div className="home__row">
-              <Product
-                id="9"
-                title="অসীমত যাৰ হেৰাল সীমা"
-                author="কাঞ্চন বৰুৱা"
-                price={300}
-                image={AXIMOT}
-                rating={3}
-              />
+              <div className="toLanding">
+                <Product
+                  id="1"
+                  title="Arnav Astha aru JEC"
+                  price={220}
+                  author="Indrani Sharma"
+                  image={JEC}
+                  rating={5}
+                />
+                <Link to='/one' className="showMore">View More</Link>
+              </div>
 
-              <Product
-                id="12"
-                title="অসীমত যাৰ সীমা নেহেৰায়"
-                author="প্ৰণৱ কুমাৰ শৰ্মা"
-                price={1}
-                image={NEH}
-                rating={4}
-              />
-              <Product
-                id="10"
-                title="Lord of the Rings"
-                author="J.R.R. Tolkien"
-                price={649}
-                image={LORD}
-                rating={3}
-              />
-              <Product
-                id="11"
-                title="The White Tiger"
-                author="Aravind Adiga"
-                price={399}
-                image={TIGER}
-                rating={3}
-              />
-              <Product
-                id="12"
-                title="Train to Pakistan"
-                author="Khushwant Singh"
-                price={120}
-                image={TRAIN}
-                rating={4}
-              />
-              <Product
-                id="12"
-                title="A Great Man"
-                author="Kate Christensen"
-                price={3242}
-                image={GREAT}
-                rating={4}
-              />
-              <Product
-                id="12"
-                title="Angels and Demons"
-                author="Dan Brown"
-                price={499}
-                image={ANGEL}
-                rating={4}
-              />
-              <Product
-                id="20"
-                title="More Books"
-                author="Coming soon"
-                price={0}
-                image={COMING}
-                rating={4}
-              />
+              <div className="toLanding">
+                <Product
+                  id="2"
+                  title="The Secret"
+                  author="Rhonda Byrne"
+                  price={799}
+                  image={SECRET}
+                  rating={4}
+                />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="3"
+                  title="Ignited minds"
+                  author="APJ Abdul Kalam"
+                  price={189}
+                  image={IGNITED}
+                  rating={5}
+                />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="4"
+                  title="History of 7 killings"
+                  author="Marlon James"
+                  price={499}
+                  image={SEVEN}
+                  rating={3}
+                />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+            </div>
+
+            <div className="home__row">
+              <div className="toLanding">
+                <Product
+                  id="5"
+                  title="Pride and Prejudice"
+                  author="Jane Austen"
+                  price={99}
+                  image={PRIDE}
+                  rating={5}
+                />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="6"
+                  title="বকুল ফুলৰ দৰে "
+                  author="ড° মৃণাল কলিতা "
+                  price={200}
+                  image={BOKUL}
+                  rating={2}
+                />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="7"
+                  title="Wings of fire"
+                  author="APJ Abdul Kalam"
+                  price={150}
+                  image={WINGS}
+                  rating={4}
+                />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="8"
+                  title="One Indian Girl"
+                  author="Chetan Bhagat"
+                  price={130}
+                  image={OIG}
+                  rating={4}
+                />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+            </div>
+
+            <div className="home__row">
+              <div className="toLanding">
+                <Product
+                  id="9"
+                  title="অসীমত যাৰ হেৰাল সীমা"
+                  author="কাঞ্চন বৰুৱা"
+                  price={300}
+                  image={AXIMOT}
+                  rating={5}
+                />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="10"
+                  title="অসীমত যাৰ সীমা নেহেৰায়"
+                  author="প্ৰণৱ কুমাৰ শৰ্মা"
+                  price={1}
+                  image={NEH}
+                  rating={1}
+                />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="11"
+                  title="Lord of the Rings"
+                  author="J.R.R. Tolkien"
+                  price={649}
+                  image={LORD}
+                  rating={3}
+                />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="12"
+                  title="The White Tiger"
+                  author="Aravind Adiga"
+                  price={399}
+                  image={TIGER}
+                  rating={3}
+                />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+            </div>
+            <div className="home__row">
+              <div className="toLanding">
+                <Product
+                  id="13"
+                  title="Train to Pakistan"
+                  author="Khushwant Singh"
+                  price={120}
+                  image={TRAIN}
+                  rating={4}
+                />
+
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="14"
+                  title="A Great Man"
+                  author="Kate Christensen"
+                  price={3242}
+                  image={GREAT}
+                  rating={4}
+                />
+
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="15"
+                  title="Angels and Demons"
+                  author="Dan Brown"
+                  price={499}
+                  image={ANGEL}
+                  rating={4}
+                />
+
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="16"
+                  title="More Books"
+                  author="Coming soon"
+                  price={0}
+                  image={COMING}
+                  rating={4}
+                />
+                <Link to="/sell" className="showMore">
+                  Donate Books
+                </Link>
+              </div>
             </div>
           </div>
 
           <div className="wrapper">
             <small className="category__name">Student's Library</small>
             <div className="home__row">
-              <Product
-                id="13"
-                title="Concept of Physics"
-                author="HC Verma"
-                price={399}
-                image={CONPHY}
-                rating={4}
-              />
-              <Product
-                id="14"
-                title="Handbook of Chemistry"
-                author="Arihant"
-                price={188}
-                image={CHEMONE}
-                rating={5}
-              />
-              <Product
-                id="15"
-                title="21 years JEE main PYQ"
-                author="MTG"
-                price={449}
-                image={MTGONE}
-                rating={3}
-              />
-              <Product
-                id="16"
-                title="Organic Chemistry"
-                author="Disha Publications"
-                price={140}
-                image={CHEMTWO}
-                rating={5}
-              />
+              <div className="toLanding">
+                <Product
+                  id="17"
+                  title="Concept of Physics"
+                  author="HC Verma"
+                  price={399}
+                  image={CONPHY}
+                  rating={4}
+                />
+
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="18"
+                  title="Handbook of Chemistry"
+                  author="Arihant"
+                  price={188}
+                  image={CHEMONE}
+                  rating={5}
+                />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="19"
+                  title="21 years JEE main PYQ"
+                  author="MTG"
+                  price={449}
+                  image={MTGONE}
+                  rating={3}
+                />
+
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="20"
+                  title="Organic Chemistry"
+                  author="Disha Publications"
+                  price={140}
+                  image={CHEMTWO}
+                  rating={5}
+                />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
             </div>
             <div className="home__row">
-              <Product
-                id="17"
-                title="Chemistry Problem"
-                author="Wiley Editorial"
-                price={690}
-                image={CHEMTHREE}
-                rating={5}
-              />
+              <div className="toLanding">
+                <Product
+                  id="21"
+                  title="Chemistry Problem"
+                  author="Wiley Editorial"
+                  price={690}
+                  image={CHEMTHREE}
+                  rating={5}
+                />
 
-              <Product
-                id="18"
-                title="Engineering Physics"
-                author="HK Malik"
-                price={799}
-                image={ENGPHY}
-                rating={3}
-              />
-              <Product
-                id="19"
-                title="Intro to Algorithms"
-                author="Thomas Cormen "
-                price={1499}
-                image={INTRO}
-                rating={5}
-              />
-              <Product
-                id="20"
-                title="Handbook of Physics"
-                author="Arihant"
-                price={210}
-                image={ARONE}
-                rating={4}
-              />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="ttwo"
+                  title="Engineering Physics"
+                  author="HK Malik"
+                  price={799}
+                  image={ENGPHY}
+                  rating={3}
+                />
+
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="23"
+                  title="Intro to Algorithms"
+                  author="Thomas Cormen "
+                  price={1499}
+                  image={INTRO}
+                  rating={5}
+                />
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
+
+              <div className="toLanding">
+                <Product
+                  id="24"
+                  title="Handbook of Physics"
+                  author="Arihant"
+                  price={210}
+                  image={ARONE}
+                  rating={4}
+                />
+
+                <Link to="/one" className="showMore">
+                  View more
+                </Link>
+              </div>
             </div>
           </div>
 

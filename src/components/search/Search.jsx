@@ -1,31 +1,39 @@
 import React, { useState } from "react";
 import { BsSearch } from "react-icons/bs";
-import { useNavigate } from "react-router-dom";
 import "./Search.css";
 
 const Search = () => {
-  const navigate = useNavigate();
+  const [showMessage, setShowMessage] = useState(false);
+  const [message, setMessage] = useState("");
 
-  const [keyword, setKeyword] = useState("");
-
-  const searchHandler = (e) => {
-    e.preventDefault();
-
-    if (keyword.trim()) {
-      navigate("/search/${keyword}");
-    } else {
-      navigate("/");
-    }
+  const handleClick = () => {
+    setMessage("sorry, we are trying to add more books");
+    setShowMessage(true);
   };
+
+  if (!showMessage) {
+    return (
+      <form className="header__search">
+        <input
+          className="header__searchInput"
+          type="text"
+          placeholder="Search book..."
+        />
+        <BsSearch className="header__searchIcon" onClick={handleClick} />
+      </form>
+    );
+  }
+
+  setTimeout(() => {
+    setShowMessage(false);
+  }, 1500);
+
   return (
-    <form onSubmit={searchHandler} className="header__search">
-      <input
-        className="header__searchInput"
-        type="text"
-        placeholder="Search book..."
-        onChange={(e) => setKeyword(e.target.value)}
-      />
-      <BsSearch className="header__searchIcon" />
+    <form className="header__search">
+      <div className="header__searchInput" role="alert">
+        <p>{message}</p>
+       
+      </div>
     </form>
   );
 };

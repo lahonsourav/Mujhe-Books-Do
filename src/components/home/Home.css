@@ -64,6 +64,7 @@
 
 .home__aboutStar__sell > small {
   font-size: 14px;
+  margin-top: 10px;
 }
 
 .category__name {
@@ -99,6 +100,33 @@
   align-items: center;
 }
 
+.toLanding {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--color-white);
+
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 100px;
+  border-radius: 10px;
+  transition: var(--transition);
+  color: var(--color-bg);
+  margin: 7px;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.toLanding:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+}
+
+.showMore {
+  margin-top: -7px;
+  padding: 1px;
+  margin-bottom: 8px;
+  padding: 5px;
+  font-size: 14px;
+}
 /* :end */
 
 @media (max-width: 560px) {
@@ -113,6 +141,15 @@
     margin-top: 4px;
     height: 12px;
     margin-bottom: -4px;
+  }
+
+  .showMore {
+    position: relative;
+    margin-top: -8px;
+    color: black;
+    margin-bottom: 1px;
+    padding: 1px;
+    font-size: 8px;
   }
 }
 

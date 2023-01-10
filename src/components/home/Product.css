@@ -5,21 +5,20 @@
   /* background-color: var(--color-primary-variant); */
   background-color: var(--color-white);
 
-  /* z-index: 1; */
   align-items: center;
   justify-content: flex-end;
-  margin: 10px;
-  padding: 20px;
   width: 100%;
+  padding: 10px;
   max-height: 400px;
   min-width: 100px;
   border-radius: 10px;
   transition: var(--transition);
+  color: var(--color-bg);
+
+
 }
 
-.product:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
-}
+
 
 .product > img {
   transition: var(--transition);
@@ -30,6 +29,17 @@
   width: 100%;
   object-fit: contain;
   /* margin-bottom: 15px; */
+}
+
+.addTocartButton {
+  position: relative;
+  border-radius: 3px;
+  background: var(--color-primary-variant);
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: var(--color-bg);
+  color: black;
+  padding: 5px;
 }
 
 .product__info .author__name {
@@ -44,22 +54,13 @@
   margin-top: 5px;
 }
 
-.product > button {
-  border-radius: 2px;
-  background: var(--color-primary);
-  border: 1px solid;
-  margin-top: 10px;
-  border-color: var(--color-bg);
-  color: black;
-  /* z-index: 1000; */
-}
-
 .product__info {
   overflow-y: hidden;
 }
 
 .product__rating {
   display: flex;
+  margin-top: 10px;
 }
 
 .flash-message {
@@ -124,18 +125,26 @@
 
 @media (max-width: 560px) {
   .product {
-    margin: 5px;
-    padding: 10px;
+    margin: 2px;
+    padding: 7px;
     width: 100%;
     max-height: 300px;
     min-width: 100px;
-    box-shadow: 0 0 11px rgba(33, 33, 33, 0.1);
   }
 
   .product__info {
-    
     min-height: 56px;
     margin-top: -6px;
+  }
+
+  .addTocartButton {
+    border-radius: 3px;
+    background: var(--color-primary-variant);
+    border: 1px solid;
+    margin-top: 1px;
+    border-color: var(--color-bg);
+    color: black;
+    padding: 3px;
   }
 
   .product__info > p {
@@ -159,7 +168,6 @@
     width: 100%;
     object-fit: contain;
 
-    /* margin-bottom: 15px; */
   }
 
   .product > img:hover {
@@ -167,7 +175,8 @@
   }
 
   .product__rating {
-    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-top: 1px;
   }
 
   .product__info .author__name {
