@@ -185,20 +185,20 @@
   .flash-message {
     max-height: 40px;
 
-    left: 64%;
+    left: 30%;
 
     padding: 1rem;
 
     font-size: 0.7rem;
-    font-weight: 100;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     animation-name: slidein;
   }
 
   .flash-message > p {
-    animation-duration: 2s;
+    animation-duration: 0.5s;
     animation-name: slidein;
     font-weight: 300;
+    font-size: 10px;
   }
 }
 

@@ -36,8 +36,7 @@ const One = () => {
               capability & if you are an engineering aspirant then this book is
               a must buy. It helped to analyse problems in much more logical way
               without over thinking it. This book shows you how to apply physics
-              in various problems.য়া কাহিনী 'অৰ্ণব, আস্থা আৰু JEC' ইন্দ্ৰাণী
-              শৰ্মাৰ প্ৰথম উপন্যাস।
+              in various problems.
             </small>
             <br />
             <a href="https://medicalstudyzone.com/concept-of-physics-hc-verma-book-pdf-free-download/">

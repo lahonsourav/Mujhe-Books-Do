@@ -355,7 +355,7 @@ function App() {
           ></Route>
 
           <Route
-            path="/osevevn"
+            path="/oseven"
             element={
               <>
                 <Header />

@@ -373,7 +373,7 @@ const Home = () => {
                   rating={3}
                 />
 
-                <Link to="/tonw" className="showMore">
+                <Link to="/tone" className="showMore">
                   View more
                 </Link>
               </div>
