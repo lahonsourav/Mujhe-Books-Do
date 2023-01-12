@@ -41,7 +41,7 @@ const One = () => {
               'developed nation' by that year.
             </small>
             <br />
-            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4117111/#:~:text=Ignited%20Minds%20is%20a%20book,his%20dream%20of%20developed%20India.">
+            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4117111/#:~:text=Ignited%20Minds%20is%20a%20book,his%20dream%20of%20developed%20India." target='_blank' >
               Read Summary
             </a>
           </div>

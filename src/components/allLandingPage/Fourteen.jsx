@@ -9,7 +9,7 @@ const One = () => {
         <div className="landing__left">
           <img src={GREAT} alt="" />
 
-          <a href="javascript:void(0)" className="addButton">
+          <a href="javascript:void(0)"  className="addButton">
             Download PDF
           </a>
         </div>
@@ -32,7 +32,7 @@ const One = () => {
               married to Abigail, the daughter of a rich Jewish family.
             </small>
             <br />
-            <a href="https://www.google.com/search?q=synopsis+of+A+Great+Man&rlz=1C1ONGR_enIN1016IN1016&sxsrf=AJOqlzUlgxtFE3JhrqtG86IDtpxYo1IQXg%3A1673376511228&ei=_7K9Y4rODcGemgeWxoCYCQ&ved=0ahUKEwjKyZuk1b38AhVBj-YKHRYjAJMQ4dUDCA8&uact=5&oq=synopsis+of+A+Great+Man&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyCAghEBYQHhAdMggIIRAWEB4QHTIICCEQFhAeEB0yCAghEBYQHhAdMggIIRAWEB4QHToKCAAQRxDWBBCwA0oECEEYAEoECEYYAFDlBFjlBGDeCWgBcAF4AIABhgKIAYYCkgEDMi0xmAEAoAECoAEByAEIwAEB&sclient=gws-wiz-serp">
+            <a href="https://www.google.com/search?q=synopsis+of+A+Great+Man&rlz=1C1ONGR_enIN1016IN1016&sxsrf=AJOqlzUlgxtFE3JhrqtG86IDtpxYo1IQXg%3A1673376511228&ei=_7K9Y4rODcGemgeWxoCYCQ&ved=0ahUKEwjKyZuk1b38AhVBj-YKHRYjAJMQ4dUDCA8&uact=5&oq=synopsis+of+A+Great+Man&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyCAghEBYQHhAdMggIIRAWEB4QHTIICCEQFhAeEB0yCAghEBYQHhAdMggIIRAWEB4QHToKCAAQRxDWBBCwA0oECEEYAEoECEYYAFDlBFjlBGDeCWgBcAF4AIABhgKIAYYCkgEDMi0xmAEAoAECoAEByAEIwAEB&sclient=gws-wiz-serp" target='_blank' >
               Read Summary
             </a>
           </div>

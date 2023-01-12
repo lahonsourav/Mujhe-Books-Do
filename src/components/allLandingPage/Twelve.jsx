@@ -44,7 +44,7 @@ const One = () => {
               as they are usually."
             </small>
             <br />
-            <a href="https://www.google.com/search?q=synopsis+of+The+White+Tiger&rlz=1C1ONGR_enIN1016IN1016&sxsrf=AJOqlzX_tO5S5lPZBqrSEADunlyVcGevDg%3A1673375541497&ei=Na-9Y7GDHuLh4-EP4sKXwAI&ved=0ahUKEwjx8efV0b38AhXi8DgGHWLhBSgQ4dUDCA8&uact=5&oq=synopsis+of+The+White+Tiger&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIECCMQJzIECCMQJzIECAAQQzIFCAAQkQIyBQgAEJECMgUIABCRAjIFCAAQkQIyBQgAEIAEMgUIABCABDoKCAAQRxDWBBCwA0oECEEYAEoECEYYAFC-AljoBGDvBmgBcAF4AIAB9wGIAfcBkgEDMi0xmAEAoAEBoAECyAEIwAEB&sclient=gws-wiz-serp">
+            <a href="https://www.google.com/search?q=synopsis+of+The+White+Tiger&rlz=1C1ONGR_enIN1016IN1016&sxsrf=AJOqlzX_tO5S5lPZBqrSEADunlyVcGevDg%3A1673375541497&ei=Na-9Y7GDHuLh4-EP4sKXwAI&ved=0ahUKEwjx8efV0b38AhXi8DgGHWLhBSgQ4dUDCA8&uact=5&oq=synopsis+of+The+White+Tiger&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIECCMQJzIECCMQJzIECAAQQzIFCAAQkQIyBQgAEJECMgUIABCRAjIFCAAQkQIyBQgAEIAEMgUIABCABDoKCAAQRxDWBBCwA0oECEEYAEoECEYYAFC-AljoBGDvBmgBcAF4AIAB9wGIAfcBkgEDMi0xmAEAoAEBoAECyAEIwAEB&sclient=gws-wiz-serp" target='_blank' >
               Read Summary
             </a>
           </div>

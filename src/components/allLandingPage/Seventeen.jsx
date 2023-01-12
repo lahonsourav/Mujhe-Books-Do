@@ -10,7 +10,7 @@ const One = () => {
           <img src={CONPHY} alt="" />
 
           <a
-            href="https://medicalstudyzone.com/concept-of-physics-hc-verma-book-pdf-free-download/"
+            href="https://medicalstudyzone.com/concept-of-physics-hc-verma-book-pdf-free-download/" target='_blank' 
             className="addButton"
           >
             Download PDF

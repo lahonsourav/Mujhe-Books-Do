@@ -9,7 +9,7 @@ const One = () => {
         <div className="landing__left">
           <img src={SEVEN} alt="" />
 
-          <a href="javascript:void(0)" className="addButton">
+          <a href="javascript:void(0)"  className="addButton">
             Download PDF
           </a>
         </div>
@@ -32,7 +32,7 @@ const One = () => {
               straight afterwards and did not return to Jamaica for two years.
             </small>
             <br />
-            <a href="https://www.google.com/search?q=synopsis+of+History+of+7+killings&rlz=1C1ONGR_enIN1016IN1016&sxsrf=AJOqlzX_tO5S5lPZBqrSEADunlyVcGevDg%3A1673375541497&ei=Na-9Y7GDHuLh4-EP4sKXwAI&ved=0ahUKEwjx8efV0b38AhXi8DgGHWLhBSgQ4dUDCA8&uact=5&oq=synopsis+of+History+of+7+killings&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwA0oECEEYAEoECEYYAFAAWABg3wNoAXABeACAAQCIAQCSAQCYAQDIAQjAAQE&sclient=gws-wiz-serp">
+            <a href="https://www.google.com/search?q=synopsis+of+History+of+7+killings&rlz=1C1ONGR_enIN1016IN1016&sxsrf=AJOqlzX_tO5S5lPZBqrSEADunlyVcGevDg%3A1673375541497&ei=Na-9Y7GDHuLh4-EP4sKXwAI&ved=0ahUKEwjx8efV0b38AhXi8DgGHWLhBSgQ4dUDCA8&uact=5&oq=synopsis+of+History+of+7+killings&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwA0oECEEYAEoECEYYAFAAWABg3wNoAXABeACAAQCIAQCSAQCYAQDIAQjAAQE&sclient=gws-wiz-serp" target='_blank' >
               Read Summary
             </a>
           </div>

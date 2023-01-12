@@ -49,7 +49,10 @@ const One = () => {
               patriotism, and valor.
             </small>
             <br />
-            <a href="https://www.axomiyakobita.in/2021/08/asimat-jar-heral-seema-assamese-novel.html">
+            <a
+              href="https://www.axomiyakobita.in/2021/08/asimat-jar-heral-seema-assamese-novel.html"
+              target="_blank"
+            >
               Read Summary
             </a>
           </div>

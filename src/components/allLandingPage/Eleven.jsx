@@ -9,7 +9,7 @@ const One = () => {
         <div className="landing__left">
           <img src={LORD} alt="" />
 
-          <a href="javascript:void(0)" className="addButton">
+          <a href="javascript:void(0)"  className="addButton">
             Download PDF
           </a>
         </div>
@@ -36,7 +36,7 @@ const One = () => {
               from Tolkien’s extensive knowledge of philology and folklore.
             </small>
             <br />
-            <a href="https://www.britannica.com/topic/The-Lord-of-the-Rings">
+            <a href="https://www.britannica.com/topic/The-Lord-of-the-Rings" target='_blank' >
               Read More
             </a>
           </div>

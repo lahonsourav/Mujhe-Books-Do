@@ -9,7 +9,7 @@ const One = () => {
         <div className="landing__left">
           <img src={OIG} alt="" />
 
-          <a href="javascript:void(0)" className="addButton">
+          <a href="javascript:void(0)"  className="addButton">
             Download PDF
           </a>
         </div>
@@ -52,7 +52,7 @@ const One = () => {
               attitudes ingrained into cultures.
             </small>
             <br />
-            <a href="https://www.ipl.org/essay/One-Indian-Girl-Summary-PJC7VN5SQU">
+            <a href="https://www.ipl.org/essay/One-Indian-Girl-Summary-PJC7VN5SQU" target='_blank' >
               Read Summary
             </a>
           </div>

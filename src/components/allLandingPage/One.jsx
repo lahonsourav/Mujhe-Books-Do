@@ -45,7 +45,7 @@ const One = () => {
               উপন্যাস।
             </small>
             <br />
-            <a href="https://www.storytel.com/in/en/books/arnab-aastha-aru-jec-1104462">
+            <a href="https://www.storytel.com/in/en/books/arnab-aastha-aru-jec-1104462" target='_blank' >
               Listen AudioBook Storytell
             </a>
           </div>

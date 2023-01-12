@@ -32,7 +32,7 @@ const One = () => {
               truth of Indian independence, which we call division.
             </small>
             <br />
-            <a href="https://www.google.com/search?q=synopsis+of+Train+to+Pakistan&rlz=1C1ONGR_enIN1016IN1016&sxsrf=AJOqlzXwFrtEIs--JfHiq_NWgsVuMhxr0Q%3A1673376365501&ei=bbK9Y4-fHtqrz7sP8Y2CoA0&ved=0ahUKEwjPid3e1L38AhXa1XMBHfGGANQQ4dUDCA8&uact=5&oq=synopsis+of+Train+to+Pakistan&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIFCAAQhgMyBQgAEIYDMgUIABCGAzoKCAAQRxDWBBCwAzoECCMQJzoKCAAQgAQQhwIQFDoFCAAQkQJKBAhBGABKBAhGGABQhANYpQ1g7w9oAXAAeACAAakCiAHXB5IBAzItNJgBAKABAaABAsgBCMABAQ&sclient=gws-wiz-serp">
+            <a href="https://www.google.com/search?q=synopsis+of+Train+to+Pakistan&rlz=1C1ONGR_enIN1016IN1016&sxsrf=AJOqlzXwFrtEIs--JfHiq_NWgsVuMhxr0Q%3A1673376365501&ei=bbK9Y4-fHtqrz7sP8Y2CoA0&ved=0ahUKEwjPid3e1L38AhXa1XMBHfGGANQQ4dUDCA8&uact=5&oq=synopsis+of+Train+to+Pakistan&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIFCAAQhgMyBQgAEIYDMgUIABCGAzoKCAAQRxDWBBCwAzoECCMQJzoKCAAQgAQQhwIQFDoFCAAQkQJKBAhBGABKBAhGGABQhANYpQ1g7w9oAXAAeACAAakCiAHXB5IBAzItNJgBAKABAaABAsgBCMABAQ&sclient=gws-wiz-serp" target='_blank' >
               Read Summary
             </a>
           </div>
