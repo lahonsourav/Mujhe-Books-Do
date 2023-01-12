@@ -75,6 +75,8 @@ const Login = () => {
   };
   // to here
 
+  if (loading) return <h1>Hey, you are Beautiful</h1>;
+
   return (
     <div className="login">
       <Link to="/">

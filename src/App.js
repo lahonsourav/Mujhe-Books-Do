@@ -17,7 +17,9 @@ import Order from "./components/order/Order";
 
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
-import Error from "./components/errorPage/Error";
+import Error from "./components/dashboardPages/Error";
+import AccountPage from "./components/dashboardPages/AccountPage";
+
 import One from "./components/allLandingPage/One";
 
 import Two from "./components/allLandingPage/Two";
@@ -141,13 +143,22 @@ function App() {
               </>
             }
           ></Route>
+
+          <Route
+            path="/accountPage"
+            element={
+              <>
+                <AccountPage />
+              </>
+            }
+          ></Route>
+
           <Route
             path="/sell"
             element={
               <>
                 <Header />
                 <Sell />
-                <Footer />
               </>
             }
           ></Route>
@@ -191,8 +202,6 @@ function App() {
               </>
             }
           ></Route>
-
-         
 
           <Route />
 

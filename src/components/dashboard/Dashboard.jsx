@@ -13,7 +13,7 @@ const Dashboard = () => {
 
   //need to insert if not user route to log in page
 
-  if (loading) return <h1>You are entering your Library </h1>;
+  if (loading) return <h1>Hey, you are Beautiful</h1>;
   if (!user) {
     navigate("/");
   }
@@ -28,9 +28,7 @@ const Dashboard = () => {
       <div className="logOutButton"></div>
 
       <div className="user__options">
-        
-          <UserOption/>
-       
+        <UserOption />
       </div>
 
       <button className="logout__button" onClick={() => auth.signOut()}>

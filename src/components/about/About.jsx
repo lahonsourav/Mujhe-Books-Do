@@ -78,7 +78,7 @@ const About = () => {
             <a href="mailto:lahoncs@gmail.com" target="_blank">
               <BiMailSend /> Send Mail
             </a>
-            <a href="https://wa.me/6000733022" target="_blank">
+            <a href="https://wa.me/+916000733022" target="_blank">
               <BsWhatsapp /> WhatsApp
             </a>
             <a href="tel:+916001098923" target="_blank">

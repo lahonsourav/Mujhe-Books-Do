@@ -56,7 +56,13 @@ const Order = () => {
           prefix={"₹"}
         />
       </div>
-      <p className="order__text">The invoice will be sent to {user?.email}</p>
+      <div className="order__text__container">
+        <p className="order__text">
+          This purchase will be converted into discount coupon once we begin
+          product delivery, Your reference ID is "{basket.length}
+          {user?.uid}", The invoice will be sent to {user?.email}
+        </p>
+      </div>
       <button onClick={goBack} className="continue">
         <p>Continue Searching Books</p>
       </button>

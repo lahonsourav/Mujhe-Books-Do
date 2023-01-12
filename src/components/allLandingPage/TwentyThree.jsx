@@ -58,7 +58,10 @@ const One = () => {
               available worldwide.
             </small>
             <br />
-            <a href="https://sd.blackball.lv/library/Introduction_to_Algorithms_Third_Edition_(2009).pdf" target='_blank' >
+            <a
+              href="https://sd.blackball.lv/library/Introduction_to_Algorithms_Third_Edition_(2009).pdf"
+              target="_blank"
+            >
               Get PDF
             </a>
           </div>
