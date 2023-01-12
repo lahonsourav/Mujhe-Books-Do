@@ -4,10 +4,25 @@ import CurrencyFormat from "react-currency-format";
 import { useStateValue } from "../stateprovider/StateProvider";
 import { getBasketTotal } from "../stateprovider/reducer";
 import { useNavigate } from "react-router-dom";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { auth } from "../../firebase";
 
 function Subtotal() {
+  const [user, loading] = useAuthState(auth);
+
   const navigate = useNavigate();
   const [{ basket }, dispatch] = useStateValue();
+
+  const proceed = (e) => {
+    e.preventDefault();
+
+    if (!user) {
+      navigate("/login", { replace: true });
+    }
+    if (user) {
+      navigate("/payments", { replace: true });
+    }
+  };
 
   return (
     <>
@@ -31,9 +46,7 @@ function Subtotal() {
           prefix={"₹"}
         />
 
-        <button onClick={(e) => navigate("/payments", { replace: true })}>
-          Proceed to Checkout
-        </button>
+        <button onClick={proceed}>Proceed to Checkout</button>
       </div>
 
       <div className="subtotal__two">

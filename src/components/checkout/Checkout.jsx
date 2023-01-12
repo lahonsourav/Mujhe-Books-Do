@@ -31,7 +31,7 @@ function Checkout() {
       </div>
 
       {/* check how to use the flipMove */}
-      <FlipMove>
+      
         <div className="checkout__items-list">
           {basket.map((item) => (
             <CheckoutProduct
@@ -44,7 +44,7 @@ function Checkout() {
             />
           ))}
         </div>
-      </FlipMove>
+      
     </div>
   );
 }

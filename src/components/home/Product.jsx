@@ -23,6 +23,8 @@ function Product({ id, title, author, image, price, rating }) {
       },
     });
   };
+
+
   const stayHere = () => {
     navigate("/", { replace: false });
   };

@@ -5,19 +5,11 @@ import LOCK from "../../images/lock.jpg";
 import PAY from "../../images/payment.jpg";
 import CON from "../../images/contact.jpg";
 
-
 import { Link } from "react-router-dom";
 
 const UserOption = () => {
   return (
     <>
-      <div className="user__option">
-        <img src={ORDERS} alt="" />
-        <Link to="/error" className="user__option__info">
-          <p> Your Orders</p>
-          <p className="user__desc__name"> Track, return or buy things again</p>
-        </Link>
-      </div>
       <Link to="/error" className="user__option">
         <img src={LOCK} alt="" />
         <div className="user__option__info">
@@ -25,6 +17,14 @@ const UserOption = () => {
           <p className="user__desc__name"> Edit login details</p>
         </div>
       </Link>
+      <Link to="/orderhistory" className="user__option">
+        <img src={ORDERS} alt="" />
+        <div className="user__option__info">
+          <p> Your Orders</p>
+          <p className="user__desc__name"> Track, return or buy things again</p>
+        </div>
+      </Link>
+
       <Link to="/error" className="user__option">
         <img src={PAY} alt="" />
         <div className="user__option__info">

@@ -1,0 +1,16 @@
+[debug] [2023-01-12T06:03:46.634Z] ----------------------------------------------------------------------
+[debug] [2023-01-12T06:03:46.638Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-01-12T06:03:46.639Z] CLI Version:   11.19.0
+[debug] [2023-01-12T06:03:46.639Z] Platform:      win32
+[debug] [2023-01-12T06:03:46.639Z] Node Version:  v18.12.1
+[debug] [2023-01-12T06:03:46.645Z] Time:          Thu Jan 12 2023 11:33:46 GMT+0530 (India Standard Time)
+[debug] [2023-01-12T06:03:46.645Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-12T06:03:46.657Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-01-12T06:03:46.789Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-12T06:03:46.789Z] > authorizing via signed-in user (frustratedcollegian@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2023-01-12T06:03:46.800Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-01-12T06:03:46.800Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project mujhe-books-do. This may result in unexpected behavior. 
+[debug] [2023-01-12T06:03:46.813Z] [hub] writing locator at C:\Users\frust\AppData\Local\Temp\hub-mujhe-books-do.json
