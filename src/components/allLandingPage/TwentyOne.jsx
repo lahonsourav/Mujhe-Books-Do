@@ -9,7 +9,7 @@ const One = () => {
         <div className="landing__left">
           <img src={CHEMTHREE} alt="" />
 
-          <a href="" className="addButton">
+          <a href="javascript:void(0)" className="addButton">
             Download PDF
           </a>
         </div>

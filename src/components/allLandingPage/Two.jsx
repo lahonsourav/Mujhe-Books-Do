@@ -2,7 +2,6 @@ import React from "react";
 import "./allLanding.css";
 import SECRET from "../../BookImages/secret.jpg";
 
-
 const One = () => {
   return (
     <div className="landing">
@@ -10,7 +9,7 @@ const One = () => {
         <div className="landing__left">
           <img src={SECRET} alt="" />
 
-          <a href="" className="addButton">
+          <a href="javascript:void(0)" className="addButton">
             Download PDF
           </a>
         </div>
@@ -43,7 +42,6 @@ const One = () => {
               Power in 2010, The Magic in 2012, and Hero in 2013.
             </small>
             <br />
-           
           </div>
         </div>
       </div>
